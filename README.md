@@ -1,4 +1,4 @@
-# Web1_S2
+# Web1_2022_S2
 My web 1 assignment
 This is a project to replicate a webiste for Ara Wines. 
 I will look at the text, and images. I will replicate the size and appearance of these as closely as I can to meet the brief for the assigmnent.
