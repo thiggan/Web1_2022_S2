@@ -1,5 +1,5 @@
 # Web1_2022_S2
-# TITLE
+# Title
 ## Ara Wines website - Website Project 
 
 # Project Description
