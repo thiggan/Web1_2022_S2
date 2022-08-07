@@ -10,7 +10,7 @@ I will be using HTML, Javascript and CSS to create this website.
 # Contents
  ## 1. Home page
  ### 1.1 Information about the Marlborough Region
- ### 1.2 Infomration about the wines the make
+ ### 1.2 Information about the wines the make
  ### 1.3 Information about the quality of the wine
  ### 1.4 The Climate of the region
  ### 1.5 Latest Wines
