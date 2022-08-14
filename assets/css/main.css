@@ -1,4 +1,4 @@
-div.main {
+/* div.main {
   font-family: Arial;
 }
 
@@ -14,6 +14,107 @@ p {
 }
 
 h2 {
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+} */
+
+.hero {
+  background-color: lightslategray;
+}
+.hero h1 {
+  text-align: center;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+.hero p {
+  text-align: center;
+}
+
+.hero2 {
+  background-color: lightgray;
+}
+.hero2 h1 {
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+.hero2 p {
+  text-align: left;
+}
+
+.hero3 {
+  background-color: pink;
+}
+.hero3 p{
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+
+.hero4{
+  background-color: lime;
+}
+.hero4 p{
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+
+.hero5{
+  background-color: blueviolet;
+}
+.hero5 p{
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+.hero6{
+  background-color: royalblue;
+}
+.hero6 p{
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+.hero7{
+  background-color: hotpink;
+}
+.hero7 p{
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+.hero8{
+  background-color: palevioletred;
+}
+.hero8 p{
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+.hero9{
+  background-color: brown;
+}
+.hero9 p{
+  text-align: left;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+.footer{
+  background-color:  yellowgreen;
+}
+.footer p{
+  text-align: left;
   font-family: Arial;
   color: black;
   font-weight: bold;
