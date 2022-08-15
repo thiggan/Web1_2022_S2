@@ -27,88 +27,163 @@ h2 {
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
 }
 .hero p {
   text-align: center;
+  font-family: sans-serif;
+  color:rgb(66, 66, 66);
+  font-weight:100;
+  font-size: 20px;
+
 }
 
 .hero2 {
-  background-color: lightgray;
+  background-color: white;
 }
 .hero2 h1 {
   text-align: left;
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
+  padding-left: 400px;
 }
 .hero2 p {
   text-align: left;
+  font-family: sans-serif;
+  color:rgb(66, 66, 66);
+  font-weight:100;
+  font-size: 20px;
+  padding-left: 400px;
+
 }
 
 .hero3 {
   background-color: pink;
 }
-.hero3 p{
-  text-align: left;
+.hero3 h1{
+  text-align: center;
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
+  padding-right: 400px;
+
+}
+
+.hero3 p{
+  text-align: left;
+  font-family: sans-serif;
+  color:rgb(66, 66, 66);
+  font-weight:100;
+  font-size: 20px;
+  padding-right: 400px;
 }
 
 .hero4{
   background-color: lime;
 }
+.hero4 h1{
+  text-align: center;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
 .hero4 p{
   text-align: left;
-  font-family: Arial;
-  color: black;
-  font-weight: bold;
-}
+  font-family: sans-serif;
+  color:rgb(66, 66, 66);
+  font-weight:100;
+  font-size: 20px;
+}  
 
 .hero5{
-  background-color: blueviolet;
+  background-color: lime;
 }
-.hero5 p{
-  text-align: left;
+
+.hero5 h1{
+  text-align: center;
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
+}
+.hero5 p{
+  text-align: center;
+  
 }
 .hero6{
   background-color: royalblue;
 }
-.hero6 p{
-  text-align: left;
+.her6 h1{
+  text-align: center;
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
+}
+.hero6 p{
+  text-align: right;
+  
 }
 .hero7{
   background-color: hotpink;
 }
-.hero7 p{
-  text-align: left;
+.hero7 h1{
+  text-align: right;
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
+  padding-right: 400px;
+}
+.hero7 p{
+  text-align: right;
+  font-family: sans-serif;
+  color:rgb(66, 66, 66);
+  font-weight:100;
+  font-size: 20px;
+  padding-right: 400px;
 }
 .hero8{
   background-color: palevioletred;
 }
-.hero8 p{
+.hero8 h1{
   text-align: left;
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
+  padding-left: 400px;
 }
+.hero8 p{
+  text-align: left;
+  font-family: sans-serif;
+  color:rgb(66, 66, 66);
+  font-weight:100;
+  font-size: 20px;
+  padding-left: 400px;
+}
+
 .hero9{
   background-color: brown;
 }
-.hero9 p{
-  text-align: left;
+.hero9 h1{
+  text-align: right;
   font-family: Arial;
   color: black;
   font-weight: bold;
+  font-size: 30px;
+  padding-right: 400px;
+}
+.hero9 p{
+  text-align: right;
+  font-family: sans-serif;
+  color:rgb(66, 66, 66);
+  font-weight:100;
+  font-size: 20px;
+  padding-right: 400px;
 }
 .footer{
   background-color:  yellowgreen;
