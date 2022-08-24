@@ -103,17 +103,17 @@ body{
   box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
 }
 
-.hero {
+.Wines {
   background-color: lightslategray;
 }
-.hero h1 {
+.Wines h1 {
   text-align: center;
   font-family: Arial;
   color: black;
   font-weight: bold;
   font-size: 30px;
 }
-.hero p {
+.Wines p {
   text-align: center;
   font-family: sans-serif;
   color: rgb(66, 66, 66);
@@ -123,11 +123,11 @@ body{
 
 
 
-.hero2 {
+.Pure {
   background-color: lightgray;
   border: solid;
 }
-.hero2 h1 {
+.Pure h1 {
   /* background-color: lightgray; */
   text-align: left;
   font-family: Arial;
@@ -136,7 +136,7 @@ body{
   font-size: 30px;
   padding-left: 400px;
 }
-.hero2 p {
+.Pure p {
   /* background-color: lightgray; */
   text-align: left;
   font-family: sans-serif;
