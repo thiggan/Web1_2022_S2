@@ -18,7 +18,7 @@ h2 {
   color: black;
   font-weight: bold;
 } */
-
+/* 
 .title .image1 {
   position: relative;
   top: 0;
@@ -45,6 +45,47 @@ h2 {
   color: white;
   font-style: bold;
   font-weight: 800;
+}
+*/ 
+
+body{
+  margin:0;
+}
+.title{
+  position: relative;
+  height: 70vh;
+}
+.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+}
+.parent{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.top_row{
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+}
+
+.heading1{
+  color:white;
+  font-size:36px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.image3{
+  align-self:flex-end;
 }
 
 .box-shadow-menu {
@@ -79,6 +120,8 @@ h2 {
   font-weight: 100;
   font-size: 20px;
 }
+
+
 
 .hero2 {
   background-color: lightgray;
@@ -232,12 +275,49 @@ h2 {
   font-size: 20px;
   padding-right: 400px;
 }
-.footer {
-  background-color: yellowgreen;
-}
-.footer p {
+
+.footer{
+  
+  height:400px;
+  width:100%;
+  background-color: black;
   text-align: left;
-  font-family: Arial;
-  color: black;
+  font-family: sans-serif;
+  color: white;
   font-weight: bold;
+  font-size: 10px;
 }
+  
+.top-row{
+  display:flex;
+  width: 100%;
+  justify-content: left;
+}
+
+.parent1{
+  padding-left: 400px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items:left;
+
+
+  
+}
+.links{
+  display:flex;
+  width:100%;
+  justify-content: left;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 5px;
+}
+/* .footer{
+  background-color: black;
+  text-align: left;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+} */
