@@ -46,46 +46,46 @@ h2 {
   font-style: bold;
   font-weight: 800;
 }
-*/ 
+*/
 
-body{
-  margin:0;
+body {
+  margin: 0;
 }
-.title{
+.title {
   position: relative;
   height: 70vh;
 }
-.container{
+.container {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
-  display:flex;
-  justify-content:center;
+  display: flex;
+  justify-content: center;
 }
-.parent{
-  width:50%;
+.parent {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.top_row{
+.top_row {
   display: flex;
-  width:100%;
+  width: 100%;
   justify-content: space-between;
 }
 
-.heading1{
-  color:white;
-  font-size:36px;
+.heading1 {
+  color: white;
+  font-size: 36px;
   font-family: sans-serif;
   font-weight: bold;
 }
 
-.image3{
-  align-self:flex-end;
+.image3 {
+  align-self: flex-end;
 }
 
 .box-shadow-menu {
@@ -120,11 +120,10 @@ body{
   font-weight: 100;
   font-size: 20px;
 }
-.pure_parent{
+.pure_parent {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 
 .pure {
   background-color: lightgray;
@@ -150,12 +149,10 @@ body{
   padding-left: 400px;
 }
 
-.pure-img{
+.pure-img {
   background: white;
   border: solid;
-  
 }
-
 
 .our_wines {
   background-color: pink;
@@ -168,7 +165,6 @@ body{
   font-size: 30px;
   padding-right: 400px;
 }
-
 
 .our_wines_parent {
   display: grid;
@@ -238,7 +234,7 @@ body{
   font-size: 20px;
   padding-right: 400px;
 }
-.quality-img{
+.quality-img {
   border: solid;
 }
 .cool_climate_parent {
@@ -262,7 +258,7 @@ body{
   font-size: 20px;
   padding-left: 400px;
 }
-.scroll_images  {
+.scroll_images {
   padding-left: 300px;
   border: solid;
 }
@@ -285,16 +281,16 @@ body{
   color: rgb(66, 66, 66);
   font-weight: 100;
   font-size: 20px;
-  padding-right: 400px; 
+  padding-right: 400px;
 }
-.scroll_images_latest  {
+.scroll_images_latest {
   padding-left: 300px;
   border: solid;
 }
 
-.footer{
-  height:30vh;
-  width:100%;
+.footer {
+  height: 30vh;
+  width: 100%;
   background-color: black;
   text-align: left;
   font-family: sans-serif;
@@ -304,62 +300,59 @@ body{
   top: 50px;
 }
 
-.scroll_images1  {
+.scroll_images1 {
   padding-right: 300px;
   border: solid;
 }
 
-.multi_images_parent{
+.multi_images_parent {
   grid-template-columns: 1fr 1fr;
- 
+
   background: peru;
-  
 }
-.grid1{
-  display: grid
+.grid1 {
+  display: grid;
 }
-.grid2{
-  display: grid
+.grid2 {
+  display: grid;
 }
-.grid3{
-  display: grid
+.grid3 {
+  display: grid;
 }
-.grid4{
-  display: grid
+.grid4 {
+  display: grid;
 }
-.grid5{
-  display: grid
+.grid5 {
+  display: grid;
 }
-.grid6{
-  display: grid
+.grid6 {
+  display: grid;
 }
 
-.top-row{
-  display:flex;
+.top-row {
+  display: flex;
   width: 100%;
   justify-content: left;
 }
 
-.parent1{
+.parent1 {
   padding-left: 350px;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content:left;
-  align-items:left;
+  justify-content: left;
+  align-items: left;
   color: white;
-  
 }
-.links{
+.links {
   padding-left: 350px;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content:left;
-  align-items:left;
+  justify-content: left;
+  align-items: left;
   justify-content: space-between 20px;
-
 }
-.links a{
+.links a {
   color: white;
 }
 /* .lower_row{
@@ -369,12 +362,12 @@ body{
 
 } */
 
-.copyright{
+.copyright {
   padding-left: 350px;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  justify-content:left;
-  align-items:left;
+  justify-content: left;
+  align-items: left;
 }
 /* .footer{
   background-color: black;
