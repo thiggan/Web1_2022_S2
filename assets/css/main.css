@@ -189,25 +189,11 @@ body{
   font-size: 20px;
 }
 
-.our_wines_child1 {
-  display: grid;
-  background-color: lime;
-}
-
-.our_wines_child1 h1 {
-  text-align: center;
-  font-family: Arial;
-  color: black;
-  font-weight: bold;
-  font-size: 30px;
-}
-.our_wines_child1 p {
-  text-align: center;
-}
 .our_wines_child2 {
   display: grid;
   background-color: lime;
 }
+
 .our_wines_child2 h1 {
   text-align: center;
   font-family: Arial;
@@ -216,6 +202,20 @@ body{
   font-size: 30px;
 }
 .our_wines_child2 p {
+  text-align: center;
+}
+.our_wines_child3 {
+  display: grid;
+  background-color: lime;
+}
+.our_wines_child3 h1 {
+  text-align: center;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+.our_wines_child3 p {
   text-align: right;
 }
 .hero7 {
