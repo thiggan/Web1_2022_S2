@@ -313,6 +313,7 @@ body {
   align-items: auto;
   align-content: start;
   background: peru;
+  justify-items: center;
   
 }
 
@@ -339,11 +340,13 @@ body {
 }
 .grid5 {
   flex: 0 0 auto;
-  margin: 1px;
+  margin: 0px;
+  
 }
 .grid6 {
   flex: 0 0 auto;
   margin: 1px;
+  
 }
 
 .top-row {
