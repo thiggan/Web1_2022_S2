@@ -309,11 +309,13 @@ body {
   display: flex;
   flex-direction: column;
   flex-direction: row;
+  align-self: auto;
   
-  justify-items:auto;
+
 
   background: peru;
-  padding-left:460px
+  padding-left: 460px;
+  
   
 }
 
