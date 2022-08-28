@@ -306,18 +306,37 @@ body {
 }
 
 .multi_images_parent {
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  
+  justify-items:auto;
 
   background: peru;
+  padding-left:460px
+  
+}
+
+.multi_images_child{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.image_size{
+ align-content: center;
+ 
 }
 .grid1 {
   display: grid;
+  
 }
 .grid2 {
   display: grid;
+  
 }
 .grid3 {
   display: grid;
+  
 }
 .grid4 {
   display: grid;
