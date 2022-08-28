@@ -123,11 +123,16 @@ body {
 .pure_parent {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-left: 400px;
+  padding-right: 325px;
 }
 
 .pure {
   background-color: lightgray;
+  opacity: 0.3;
   border: solid;
+  justify-content: center;
+ 
 }
 .pure h1 {
   /* background-color: lightgray; */
@@ -135,8 +140,8 @@ body {
   font-family: Arial;
   color: black;
   font-weight: bold;
-  font-size: 30px;
-  padding-left: 400px;
+  font-size: 25px;
+  padding-left: 300px;
 }
 
 .pure p {
@@ -144,9 +149,9 @@ body {
   text-align: left;
   font-family: sans-serif;
   color: rgb(66, 66, 66);
-  font-weight: 100;
+  font-weight:400;
   font-size: 20px;
-  padding-left: 400px;
+  padding-left: 300px;
 }
 
 .pure-img {
