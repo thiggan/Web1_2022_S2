@@ -232,6 +232,19 @@ body {
 /* .our_wines_child3 p {
   text-align: right;
 } */
+.our_wines_img1 {
+  width: 317px; 
+  height: 267px;
+}
+
+.our_wines_img2 {
+  width: 160px; 
+  height: 267px;
+}
+.our_wines_img3 {
+  width: 317px; 
+  height: 267px;
+}
 
 .ara_image {
   display: grid;
