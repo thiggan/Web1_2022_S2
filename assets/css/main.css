@@ -157,45 +157,48 @@ body {
   
 }
 
+
 .pure-img {
   background: white;
   /* border: solid; */
 }
 
-.our_wines {
-  background-color: pink;
+.ara_image{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
 }
-.our_wines h1 {
-  text-align: center;
-  font-family: Arial;
-  color: black;
-  font-weight: bold;
-  font-size: 30px;
-  padding-right: 400px;
-}
+
+
+
+
 
 .our_wines_parent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background: lightcoral;
+  
 }
-.our_wines_parent h1 {
+.our_wines h1 {
   text-align: center;
-  font-family: Arial;
+  font-family:Arial, Helvetica, sans-serif;
   color: black;
   font-weight: bold;
+  font-weight:900;
+  font-size: 25px;
 }
-.our_wines_parent p {
+/* .our_wines_parent p {
   text-align: left;
   font-family: sans-serif;
   color: rgb(66, 66, 66);
   font-weight: 100;
   font-size: 20px;
-}
+} */
 
 .our_wines_child2 {
   display: grid;
-  background-color: lime;
+ 
 }
 
 .our_wines_child2 h1 {
@@ -210,7 +213,7 @@ body {
 }
 .our_wines_child3 {
   display: grid;
-  background-color: lime;
+  
 }
 .our_wines_child3 h1 {
   text-align: center;
@@ -221,6 +224,15 @@ body {
 }
 .our_wines_child3 p {
   text-align: right;
+}
+
+
+.ara_image{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
 }
 
 .quality{
@@ -252,9 +264,16 @@ body {
   line-height: 1.5;
 }
 .quality-img {
-  border: solid;
+ border: none;
 }
 
+.ara_image{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
+}
 
 .cool_climate_parent {
   display: grid;
@@ -285,10 +304,16 @@ body {
   line-height: 1.5;
 }
 .scroll_images {
-  /* padding-left: 300px; */
-  border: solid;
+  border: none;
 }
 
+.ara_image{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
+}
 
 
 .latest_release_parent {
@@ -323,25 +348,29 @@ body {
 }
 
 .scroll_images_latest {
-  /* padding-left: 300px; */
-  border: solid;
+  border: none;
 }
 
-.footer {
-  height: 30vh;
-  width: 100%;
-  background-color: black;
-  text-align: left;
-  font-family: sans-serif;
-  color: white;
-  font-weight: bold;
-  font-size: 10px;
-  top: 50px;
+.ara_image{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
 }
+
 
 .scroll_images1 {
   padding-right: 300px;
   border: solid;
+}
+
+.ara_image{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
 }
 
 .multi_images_parent {
@@ -351,7 +380,6 @@ body {
   justify-content: start;
   align-items: auto;
   align-content: start;
-  background: peru;
   justify-items: center;
 }
 
@@ -379,6 +407,19 @@ body {
   flex: 0 0 auto;
   margin: 1px;
 }
+
+.footer {
+  height: 30vh;
+  width: 100%;
+  background-color: black;
+  text-align: left;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  top: 50px;
+}
+
 
 .top-row {
   display: flex;
