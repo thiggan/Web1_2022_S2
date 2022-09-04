@@ -2,7 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <script type="text/javascript" src="assets/js/main.js"></script>
   </head>
 
   <body>
@@ -198,11 +197,35 @@
       </div>
       <div>
         <div class="scroll_images">
-          <img src="assets\images\Cool_climate1.jpg" />
-          <!-- <div class="scroll_images"> -->
-          <img src="assets\images\Cool_climate2.jpg" />
-          <!-- <div class="scroll_images"> -->
-          <img src="assets\images\Cool_climate3.jpg" />
+          <div class="carousel-container">
+            <div class="carousel" id="carousel-1" auto-scroll="3000">
+              <!--The uppermost screen will appear first. This is due to JavaScript-->
+              <section class="carousel-screen">
+                <img
+                  src="assets\images\Cool_climate1.jpg"
+                  alt="Chicago Band"
+                />
+              </section>
+              <section class="carousel-screen">
+                <img
+                  src="assets\images\Cool_climate2.jpg"
+                  alt="cool climate 2"
+                />
+              </section>
+              <section class="carousel-screen">
+                <img
+                  src="assets\images\Cool_climate3.jpg"
+                  alt="cool climate 3"
+                />
+              </section>
+              <div class="left-arrow">
+                <span class="chevron left"></span>
+              </div>
+              <div class="right-arrow">
+                <span class="chevron right"></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -302,5 +325,7 @@
         </div>
       </div>
     </div>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
