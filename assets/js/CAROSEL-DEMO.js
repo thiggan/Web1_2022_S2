@@ -1,3 +1,5 @@
+// todo : remove circle-container reference
+
 //Right Arrow & Left Arrow
 let rightArrow = document.querySelector("#carousel-1 .right-arrow");
 let leftArrow = document.querySelector("#carousel-1 .left-arrow");
