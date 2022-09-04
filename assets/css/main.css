@@ -501,8 +501,9 @@ body {
 /*We do this because the carousel needs to be 100% width 
   in order for the aspect ratio trick to work*/
   .carousel-container {
-    max-width: 980px;
+    max-width: 100%;
     width: 100%;
+    display: flex;
   }
   
   /*This is the actual carousel. Overflow hidden acts as a mask*/
@@ -516,7 +517,7 @@ body {
   }
   
   .carousel-container img {
-    position: flex;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -591,6 +592,7 @@ body {
   
   .carousel-screen {
     position: absolute;
+    display: flex;
     top: 0;
     left: 0;
     width: 100%;
