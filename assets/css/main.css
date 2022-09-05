@@ -392,28 +392,36 @@ body {
 }
 
 .grid1 {
-  flex: 0 0 auto;
-  margin: 1px;
+  display:grid;
+  margin: 1px ;
+  gap: 10%;
+  
 }
 .grid2 {
-  flex: 0 0 auto;
+  display:;
   margin: 1px;
+  gap:10%
+ 
 }
 .grid3 {
-  flex: 0 0 auto;
+  display:flex;
   margin: 1px;
 }
 .grid4 {
-  flex: 0 0 auto;
+  display:flex;
   margin: 1px;
 }
 .grid5 {
-  flex: 0 0 auto;
-  margin: 0px;
+  display:flex;
+  margin: 1px;
+  margin-top: -2.2%;
+margin-bottom: 0.3%;
+
 }
 .grid6 {
-  flex: 0 0 auto;
+  display:flex;
   margin: 1px;
+  margin-bottom: 0.3%;
 }
 
 .footer {
