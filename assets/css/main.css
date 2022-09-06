@@ -86,6 +86,7 @@ body {
 
 .image3 {
   align-self: flex-end;
+  
 }
 
 .box-shadow-menu {
@@ -324,7 +325,7 @@ body {
 
 .cool_climate_parent {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .75fr 1.25fr;
   padding-left: 460px;
   padding-right: 470px;
 }
@@ -364,7 +365,7 @@ body {
 
 .latest_release_parent {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.25fr .75fr;
   padding-left: 460px;
   padding-right: 470px;
 }
