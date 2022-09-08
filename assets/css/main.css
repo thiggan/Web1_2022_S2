@@ -523,161 +523,41 @@ body {
 } */
 
 /* carousel stuff */
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-
-body {
-  background-color: #f2f2f2;
-} */
-
-/* .document-center {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/*We do this because the carousel needs to be 100% width 
-  in order for the aspect ratio trick to work*/
-.carousel-container {
-  max-width: 100%;
-  width: 100%;
-  display: flex;
-}
-
-/*This is the actual carousel. Overflow hidden acts as a mask*/
-
-.carousel {
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
   position: relative;
-  width: 100%;
-  /*Width of image is 980px. Height is 570px.*/
-  padding-top: calc(650 / 700 * 100%);
-  overflow: hidden;
+  margin: auto;
 }
 
-.carousel-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-
-.left-arrow {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+/* Next & previous buttons */
+.prev, .next {
   cursor: pointer;
-}
-
-.left-arrow:hover {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
-}
-
-.left-arrow:hover .chevron,
-.right-arrow:hover .chevron {
-  border-color: #e6e6e6;
-}
-
-.right-arrow {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
   right: 0;
-  height: 100%;
-  width: 147px;
-  cursor: pointer;
+  border-radius: 3px 0 0 3px;
 }
 
-.right-arrow:hover {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
-}
-
-.chevron {
-  width: 25px;
-  height: 25px;
-  border: opacity rgba(255, 255, 255, 0.5);
-  border-width: 10px 10px 0 0;
-}
-
-.chevron.right {
-  transform: rotate(45deg);
-}
-
-.chevron.left {
-  transform: rotate(-135deg);
-}
-
-.circle {
-  border: 1px solid white;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.circle-fill {
-  background-color: white;
-}
-
-.carousel-screen {
-  position: absolute;
-  display: flex;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Animations */
-@keyframes toRight {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: 100%;
-  }
-}
-
-@keyframes toLeft {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
-
-@keyframes comeRight {
-  0% {
-    left: 100%;
-  }
-  100% {
-    left: 0;
-  }
-}
-
-@keyframes comeLeft {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 0;
-  }
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
 }

@@ -218,34 +218,21 @@
       </div>
       <div>
         <div class="scroll_images">
-          <div class="carousel-container">
-            <div class="carousel" id="carousel-1" auto-scroll="2500">
-              <!--The uppermost screen will appear first. This is due to JavaScript-->
-              <section class="carousel-screen">
-                <img
-                  src="assets\images\Cool_climate1.jpg"
-                  alt="cool climate 1"
-                />
-              </section>
-              <section class="carousel-screen">
-                <img
-                  src="assets\images\Cool_climate2.jpg"
-                  alt="cool climate 2"
-                />
-              </section>
-              <section class="carousel-screen">
-                <img
-                  src="assets\images\Cool_climate3.jpg"
-                  alt="cool climate 3"
-                />
-              </section>
-              <div class="left-arrow">
-                <span class="chevron left"></span>
-              </div>
-              <div class="right-arrow">
-                <span class="chevron right"></span>
-              </div>
+          <div class="slideshow-container">
+            <div class="mySlides1">
+              <img src="assets\images\Cool_climate1.jpg" style="width:100%">
             </div>
+          
+            <div class="mySlides1">
+              <img src="assets\images\Cool_climate2.jpg" style="width:100%">
+            </div>
+          
+            <div class="mySlides1">
+              <img src="assets\images\Cool_climate3.jpg" style="width:100%">
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
           </div>
         </div>
       </div>
@@ -259,34 +246,19 @@
 
     <div class="latest_release_parent">
       <div class="scroll_images_latest">
-        <div class="carousel-container">
-          <div class="carousel" id="carousel-2" auto-scroll="2500">
-            <!--The uppermost screen will appear first. This is due to JavaScript-->
-            <section class="carousel-screen">
-              <img
-                src="assets\images\Latest_scroll_1.webp"
-                alt="latest image 1"
-              />
-            </section>
-            <section class="carousel-screen">
-              <img
-                src="assets\images\Scroll_image2.jpg"
-                alt="latest image 2"
-              />
-            </section>
-            <section class="carousel-screen">
-              <img
-                src="assets\images\Scroll_image3.jpg"
-                alt="latest image 3"
-              />
-            </section>
-            <div class="left-arrow">
-              <span class="chevron left"></span>
-            </div>
-            <div class="right-arrow">
-              <span class="chevron right"></span>
-            </div>
+        <div class="slideshow-container">
+          <div class="mySlides2">
+            <img src="assets\images\Latest_scroll_1.webp" style="width:100%">
           </div>
+          <div class="mySlides2">
+            <img src="assets\images\Scroll_image2.jpg" style="width:100%">
+          </div>
+          <div class="mySlides2">
+            <img src="assets\images\Scroll_image3.jpg" style="width:100%">
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
         </div>
       </div>
       <div class="latest_release">
@@ -376,8 +348,7 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="assets/js/carousel1.js"></script>
-    <script type="text/javascript" src="assets/js/carousel2.js"></script>
+    <script type="text/javascript" src="assets/js/carousel.js"></script>
 
   </body>
 </html>
