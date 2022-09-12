@@ -88,6 +88,13 @@ body {
   align-self: flex-end;
 }
 
+.about_modal{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+
+}
+
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
