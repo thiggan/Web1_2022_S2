@@ -90,6 +90,9 @@ body {
 
 .modal_container{
   background-color: black;
+  position:relative;
+  align-self: center;
+  z-index: 1;
 }
 
 .about_modal{
