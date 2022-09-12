@@ -88,11 +88,38 @@ body {
   align-self: flex-end;
 }
 
+.modal_container{
+  background-color: black;
+}
+
 .about_modal{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  
+  grid-template-columns: 1fr;
+}
 
+.about_modal ul{
+  list-style: none;
+  
+}
+
+.about_modal a{
+  color: black;
+  text-decoration: none;
+}
+
+.modal_middle_row{
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+.modal_middle_row ul{
+  list-style: none;
+}
+
+.modal_middle_row a{
+ 
+  text-decoration: none;
+  color: black;
 }
 
 .box-shadow-menu {
