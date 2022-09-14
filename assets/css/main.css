@@ -125,6 +125,21 @@ body {
   color: black;
 }
 
+.modal_last_row{
+  display:grid;
+  grid-template-rows: 1fr;
+
+}
+
+.modal_last_row ul{
+  list-style: none;
+}
+
+.modal_last_row a{
+  text-decoration: none;
+  color: black;
+}
+
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
@@ -139,6 +154,7 @@ body {
   background: black;
   box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
 }
+
 
 .ara_image {
   display: grid;
