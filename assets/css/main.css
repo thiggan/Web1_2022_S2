@@ -88,58 +88,6 @@ body {
   align-self: flex-end;
 }
 
-.modal_container{
-  background-color: black;
-  position:relative;
-  align-self: center;
-  z-index: 1;
-}
-
-.about_modal{
-  display:grid;
-  grid-template-columns: 1fr;
-}
-
-.about_modal ul{
-  list-style: none;
-  
-}
-
-.about_modal a{
-  color: black;
-  text-decoration: none;
-}
-
-.modal_middle_row{
-  display:grid;
-  grid-template-columns: 1fr;
-}
-
-.modal_middle_row ul{
-  list-style: none;
-}
-
-.modal_middle_row a{
- 
-  text-decoration: none;
-  color: black;
-}
-
-.modal_last_row{
-  display:grid;
-  grid-template-rows: 1fr;
-
-}
-
-.modal_last_row ul{
-  list-style: none;
-}
-
-.modal_last_row a{
-  text-decoration: none;
-  color: black;
-}
-
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
@@ -154,6 +102,65 @@ body {
   background: black;
   box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
 }
+
+.modal{
+  display: flex;
+  background-color: black;
+  opacity: .8;
+  position:relative;
+  align-self: center;
+  z-index: 1;
+
+}
+
+.about_modal{
+  display:flex;
+ 
+}
+
+.about_modal ul{
+  list-style: none;
+  
+  
+}
+
+.about_modal a{
+  color: white;
+  text-decoration: none;
+}
+
+.modal_middle_row{
+  display:flex;
+  align-content: center;
+ 
+  
+}
+
+.modal_middle_row ul{
+  list-style: none;
+}
+
+.modal_middle_row a{
+ 
+  text-decoration: none;
+  color: white;
+}
+
+.modal_last_row{
+  display:flex;
+  
+}
+
+.modal_last_row ul{
+  list-style: none;
+}
+
+.modal_last_row a{
+  text-decoration: none;
+  color: white;
+}
+
+
 
 
 .ara_image {
