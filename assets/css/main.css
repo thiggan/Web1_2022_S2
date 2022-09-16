@@ -103,14 +103,14 @@ body {
   box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
 }
 
-.modal{
+.modal_container{
   display: flex;
   background-color: black;
   opacity: .8;
   position:relative;
   align-self: center;
-  z-index: 1;
-
+ 
+  
 }
 
 .about_modal{
@@ -159,9 +159,6 @@ body {
   text-decoration: none;
   color: white;
 }
-
-
-
 
 .ara_image {
   display: grid;
