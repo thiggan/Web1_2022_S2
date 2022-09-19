@@ -103,67 +103,69 @@ body {
   box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
 }
 
-.modal_container{
+.modal_container {
   display: flex;
+  flex-direction: row;
   background-color: black;
-  opacity: .7;
-  position:relative;
-  justify-content: center;
-  margin-left: 30%;
-  margin-right: 30%;
-
+  opacity: 0.7;
+  width: 50%
 }
-
-.modal_X{
-  display:flex;
+.close_X {
+  display: flex;
+  font-size: 100px;
+  font-weight: 600;
+  justify-content:end ;
+  
+}
+.close_X a{
+  text-decoration: none;
   color: white;
-  
+
+
+}
+.hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
 }
 
-.modal_first_column{
-  display:flex;
 
- 
+.modal_first_column {
+  display: flex;
 }
 
-.modal_first_column ul{
+.modal_first_column ul {
   list-style: none;
-  
 }
 
-.modal_first_column a{
+.modal_first_column a {
   color: white;
   text-decoration: none;
   justify-content: center;
 }
 
-.modal_middle_column{
-  display:flex;
+.modal_middle_column {
+  display: flex;
   justify-content: center;
- 
-  
 }
 
-.modal_middle_column ul{
+.modal_middle_column ul {
   list-style: none;
 }
 
-.modal_middle_column a{
- 
+.modal_middle_column a {
   text-decoration: none;
   color: white;
 }
 
-.modal_last_column{
-  display:flex;
-  
+.modal_last_column {
+  display: flex;
 }
 
-.modal_last_column ul{
+.modal_last_column ul {
   list-style: none;
 }
 
-.modal_last_column a{
+.modal_last_column a {
   text-decoration: none;
   color: white;
 }
@@ -627,5 +629,4 @@ img {
 .prev:hover,
 .next:hover {
   background-color: #f1f1f1;
-  color: black;
-}
+  color: b
