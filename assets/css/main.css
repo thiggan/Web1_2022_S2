@@ -114,6 +114,12 @@ body {
 
 }
 
+.modal_X{
+  display:flex;
+  color: white;
+  
+}
+
 .modal_first_column{
   display:flex;
 
