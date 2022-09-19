@@ -106,9 +106,11 @@ body {
 .modal_container{
   display: flex;
   background-color: black;
-  opacity: .8;
+  opacity: .7;
   position:relative;
   justify-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
 
 }
 
