@@ -229,7 +229,7 @@ body {
   padding-left: 500px;
   padding-right: 500px;
   justify-items: center;
-}s
+}
 
 .pure_parent {
   display: grid;
@@ -458,7 +458,6 @@ body {
   font-size: 20px;
   padding-left: 50px;
   line-height: 1.5;
-  height:fit-content
 }
 
 
@@ -504,7 +503,7 @@ body {
 
 .footer {
   display: flex;
-  height: 35vh;
+  /* height: 30vh; */
   width: 100%;
   background-color: black;
   font-family: sans-serif;
@@ -525,9 +524,10 @@ body {
 
 .parent1 {
   padding-left: 350px;
+
   display: flex;
   flex-direction: column;
-  justify-content:left;
+  justify-content: left;
   align-items: left;
   color: white;
 }
@@ -544,30 +544,30 @@ body {
 }
 
 
-.copyright {
-  padding-left: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: left;
-}
+
 
 .facebook_text{
   color: white;
-  display: flex; 
+  display: flex;
+
+ 
 }
+
+
 
 .instagram_text{
   color: white;
-  display: flex; 
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
 }
 
 
-.medal{
+ .medal_footer{
   align-self: auto;
   height: 50%;
-  width: 50%;
-}
+  width: 60%;
+} 
 
 /* .lower_row{
   display:flex;
@@ -576,7 +576,13 @@ body {
 
 } */
 
-
+.copyright {
+  padding-left: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
 /* .footer{
   background-color: black;
   text-align: left;
