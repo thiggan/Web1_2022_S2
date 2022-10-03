@@ -531,8 +531,9 @@ body {
 .instagram_text {
   color: white;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 10%;
+  align-items: center; 
+  align-self: auto;
+  margin-right: 100%;
 }
 
 .medal_footer {
