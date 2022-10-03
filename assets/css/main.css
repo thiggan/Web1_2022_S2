@@ -63,6 +63,22 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.fixed_sidebar{
+  display: grid;
+  position: fixed;
+  justify-content: space-around;
+  justify-content: space-between;
+  background-color: black;
+  max-width:none;
+  max-height: max-content;
+}
+
+.fixed_sidebar a{
+  text-decoration: none;
+  color: white;
+  
+}
 .parent {
   width: 50%;
   display: flex;
@@ -84,9 +100,12 @@ body {
   font-weight: bold;
 }
 
-.image3 {
+.medal {
   align-self: flex-end;
 }
+
+
+
 
 .box-shadow-menu {
   position: relative;
@@ -170,14 +189,17 @@ body {
   color: white;
 }
 
+
+
+
 .ara_image {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr;
   padding-left: 500px;
   padding-right: 500px;
-  padding-top: 100px;
+  padding-top: 45px;
   justify-items: center;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
 }
 
 .Wines {
@@ -207,17 +229,8 @@ body {
   padding-left: 500px;
   padding-right: 500px;
   justify-items: center;
-}
+}s
 
-.ara_image {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  padding-top: 50px;
-  justify-items: center;
-  padding-bottom: 25px;
-}
 .pure_parent {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -258,16 +271,6 @@ body {
   /* border: solid; */
 }
 
-.ara_image {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  padding-top: 50px;
-  justify-items: center;
-  padding-bottom: 25px;
-}
-
 .our_wines {
   background-color: rgb(248, 248, 248);
   align-content: space-around;
@@ -278,7 +281,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: rgb(248, 248, 248);
-  align-content: space-around;
   opacity: 1;
 }
 .our_wines h1 {
@@ -305,31 +307,36 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   background-color: rgb(248, 248, 248);
-  align-content: space-between;
+  align-content:center;
   opacity: 1;
 }
 
-.our_wines_img1 h2 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+.our_wines_child a{
+  text-decoration: none;
   color: black;
-  font-weight: bold;
-  font-size: 20px;
+  position: relative;
+  text-align:center;
+  font-weight:500 ;
 }
 
-.our_wines_img2 h2 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
+.our_wines_img1 {
+  display: flex;
+  position: relative;
+  align-content: center;
+
+
 }
-.our_wines_img3 h {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: bold;
-  font-size: 20px;
+
+.our_wines_img2 {
+  display: flex;
+  position: relative;
+
+
+}
+.our_wines_img3 {
+  display: flex;
+  position: relative;
+
 }
 /* .our_wines_child3 p {
   text-align: right;
@@ -348,13 +355,6 @@ body {
   height: 267px;
 }
 
-.ara_image {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  justify-items: center;
-}
 
 .quality {
   background-color: rgb(248, 248, 248);
@@ -388,13 +388,6 @@ body {
   border: none;
 }
 
-.ara_image {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  justify-items: center;
-}
 
 .cool_climate_parent {
   display: grid;
@@ -465,23 +458,9 @@ body {
   font-size: 20px;
   padding-left: 50px;
   line-height: 1.5;
+  height:fit-content
 }
 
-.ara_image {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  justify-items: center;
-}
-
-.ara_image {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  justify-items: center;
-}
 
 .multi_images_parent {
   display: flex;
@@ -524,11 +503,14 @@ body {
 }
 
 .footer {
-  height: 30vh;
+  display: flex;
+  height: 35vh;
   width: 100%;
   background-color: black;
-  text-align: left;
   font-family: sans-serif;
+  
+}
+.footer a{
   color: white;
   font-weight: bold;
   font-size: 10px;
@@ -537,16 +519,15 @@ body {
 
 .top-row {
   display: flex;
-  width: 100%;
+  width: 50%;
   justify-content: left;
 }
 
 .parent1 {
   padding-left: 350px;
-  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content:left;
   align-items: left;
   color: white;
 }
@@ -561,12 +542,7 @@ body {
 .links a {
   color: white;
 }
-/* .lower_row{
-  display:flex;
-  width:100%;
-  justify-content: left;
 
-} */
 
 .copyright {
   padding-left: 350px;
@@ -575,6 +551,32 @@ body {
   justify-content: left;
   align-items: left;
 }
+
+.facebook_text{
+  color: white;
+  display: flex; 
+}
+
+.instagram_text{
+  color: white;
+  display: flex; 
+}
+
+
+.medal{
+  align-self: auto;
+  height: 50%;
+  width: 50%;
+}
+
+/* .lower_row{
+  display:flex;
+  width:100%;
+  justify-content: left;
+
+} */
+
+
 /* .footer{
   background-color: black;
   text-align: left;
@@ -619,6 +621,8 @@ img {
   user-select: none;
 }
 
+/*trim this down too many styles etc*/
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -629,4 +633,4 @@ img {
 .prev:hover,
 .next:hover {
   background-color: #f1f1f1;
-  color: b
+}
