@@ -187,9 +187,9 @@ body {
   grid-template-columns: 1fr;
   padding-left: 500px;
   padding-right: 500px;
-  padding-top: 45px;
+  padding-top: 30px;
   justify-items: center;
-  padding-bottom: 45px;
+  padding-bottom: 20px;
 }
 
 .Wines {
