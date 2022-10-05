@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- https://fontawesome.com/search -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/about-modal.css" />
   </head>
@@ -23,30 +25,12 @@
           <div class="top_row">
             <img
               class="ara_logo"
-              src="https://static.wixstatic.com/media/5d1d5f_08d96b40ed774c21a7c360373c544e14~mv2.png/v1/fill/w_233,h_180,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Ara_Logos-03.png"
+              src="assets/images/ara_logo.webp"
             />
 
             <div>
               <div class="box-shadow-menu">
-                <nav role="navigation">
-                  <div id="menuToggle">
-                    <span>
-                      <g>
-                        <path
-                          d="M12.03 120.303h360.909c6.641 0 12.03-5.39 12.03-12.03 0-6.641-5.39-12.03-12.03-12.03H12.03c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03z"
-                        ></path>
-                      </g>
-                    </span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                      <!-- <a href="#"><li>Home</li></a>
-                      <a href="#"><li>Our Wines</li></a>
-                      <a href="#"><li>About Ara</li></a>
-                      <a href="#"><li>Contact</li></a> -->
-                    </ul>
-                  </div>
-                </nav>
+                <i class="fa-solid fa-bars" id="about-modal-trigger"></i>
               </div>
             </div>
           </div>
@@ -60,11 +44,12 @@
 
           <img
             class="medal"
-            src="https://static.wixstatic.com/media/98cbef_799d7d4d49d04c4c9964c6671a107f57~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/New-Zealand-Winery-of-the-Year%202021.png"
+            src="assets/images/medal_header.webp"
           />
         </div>
       </div>
     </div>
+    
     <div class="ara_image">
       <img src="assets\images\ara_fancy_pnts_logo.webp" />
     </div>
@@ -230,30 +215,10 @@
                 </ul>
               </div>
               <div class="close_X">
-                <path
-                  d="M171.3 158.4L113 100l58.4-58.4c3.6-3.6 3.6-9.4 0-13s-9.4-3.6-13 0L100 87 41.6 28.7c-3.6-3.6-9.4-3.6-13 0s-3.6 9.4 0 13L87 100l-58.4 58.4c-3.6 3.6-3.6 9.4 0 13s9.4 3.6 13 0L100 113l58.4 58.4c3.6 3.6 9.4 3.6 13 0s3.5-9.5-.1-13z"
-                ></path>
-                <a href="https://www.arawines.co.nz/home" target="blank"
-                  ><span class="close">&times;</span></a
-                >
+                <i class="fa-solid fa-x" style="color: white" id="about-modal-close"></i>
               </div>
             </div>
           </div>
-
-          <button class="about-modal-close" id="about-modal-close">
-            Close me
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="main clearfix">
-        <div class="column"></div>
-        <div class="column">
-          <button class="about-modal-trigger" id="about-modal-trigger">
-            Back to site
-          </button>
         </div>
       </div>
     </div>
@@ -607,6 +572,14 @@
         </div>
       </section>
     </footer>
+
+    <div class="list-group">
+      <a class="list-group-item" href="#"><i class="fa-solid fa-bars"></i>Hamburger</a>
+      <a class="list-group-item" href="#"><i class="fa-solid fa-x"></i>Close</a>
+      <a class="list-group-item" href="#"><i class="fa-solid fa-circle-chevron-right"></i>Chevron Right</a>
+    </div>
+    
+
 
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
