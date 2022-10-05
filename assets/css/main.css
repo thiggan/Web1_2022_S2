@@ -71,21 +71,19 @@ body {
   height: 12%;
   width: 2.5%;
   background-color: black;
-  margin-top: 30%; 
+  margin-top: 30%;
   margin-left: 0.15;
-  border-style:solid;
+  border-style: solid;
   border-color: white;
   border-width: thin;
-  
 }
 
 .fixed_sidebar a {
   text-decoration: none;
   color: white;
-  align-content:space-evenly;
+  align-content: space-evenly;
   align-content: center;
- margin-top: 40%;
-  
+  margin-top: 40%;
 }
 .parent {
   width: 50%;
@@ -115,6 +113,9 @@ body {
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
+  margin-top: 100%;
+  margin-right: 75%;
+
 }
 
 .modal_container {
@@ -125,13 +126,11 @@ body {
   /* width: 50%; */
   justify-content: space-between;
   height: auto;
-  
 }
 .close_X {
   display: flex;
   font-size: 100px;
   font-weight: 600;
-  
 }
 .close_X a {
   text-decoration: none;
@@ -153,11 +152,10 @@ body {
 .modal_first_column a {
   color: white;
   text-decoration: none;
-  align-self:center;
+  align-self: center;
   font-size: large;
   font-weight: bolder;
-  font-family: 'Times New Roman', Times, serif;
-  
+  font-family: "Times New Roman", Times, serif;
 }
 
 .modal_middle_column {
@@ -626,19 +624,14 @@ footer ul {
 }
 
 .no_underline a {
-  text-decoration:none;
+  text-decoration: none;
   color: white;
-  
 }
 
 footer a {
-  text-decoration:underline;
-  color: white; 
+  text-decoration: underline;
+  color: white;
 }
-
-
- 
-
 
 /* footer a:hover {
   text-decoration: underline;
@@ -649,18 +642,14 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .ft-main-item {
   color: white;
-  align-items:center;
+  align-items: center;
   justify-content: space-evenly;
   margin: 0% 15% 0% 15%;
   align-self: auto;
   line-height: 1.5;
   font-weight: bold;
 }
-
-
-
