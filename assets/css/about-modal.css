@@ -35,6 +35,11 @@
   transition: all 0.3s;
 }
 
+#about_modal_trigger{
+  display:flex;
+  justify-content: flex-start;
+}
+
 .about-modal-show ~ .about-modal-overlay {
   opacity: 5;
   visibility: visible;

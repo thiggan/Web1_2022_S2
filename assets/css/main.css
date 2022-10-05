@@ -112,9 +112,8 @@ body {
 
 .box-shadow-menu {
   position: relative;
-  padding-left: 1.25em;
-  margin-top: 100%;
-  margin-right: 75%;
+  margin-right: 90PX;
+  margin-top: 100px;
 
 }
 
@@ -130,12 +129,10 @@ body {
 .close_X {
   display: flex;
   font-size: 100px;
-  font-weight: 600;
+  margin-top: 30%;
+  margin-left: 50%;
 }
-.close_X a {
-  text-decoration: none;
-  color: white;
-}
+
 .hovertext {
   position: relative;
   border-bottom: 1px dotted black;
