@@ -172,21 +172,19 @@ body {
   justify-items: center;
 }
 
-.pure_parent {
+.box_parent {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 460px;
   padding-right: 470px;
 }
 
-.pure {
+.box {
   background-color: rgb(248, 248, 248);
   align-content: space-around;
-  opacity: 1;
-  /* border: solid; */
-  /* justify-content: left; */
+  opacity: 0.8;
 }
-.pure h1 {
+.box h1 {
   /* background-color: lightgray; */
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -196,7 +194,7 @@ body {
   padding-left: 50px;
 }
 
-.pure p {
+.box p {
   /* background-color: lightgray; */
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -207,14 +205,30 @@ body {
   line-height: 1.5;
 }
 
-.pure-img {
+.box-img {
   background: white;
-  /* border: solid; */
+}
+
+.wines_container{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1r;
+  background-color: rgb(248, 248, 248);
+  
 }
 
 .our_wines {
   background-color: rgb(248, 248, 248);
-  align-content: space-around;
+  opacity: 1;
+}
+
+.our_wines h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 25px;
+  background-color: rgb(248, 248, 248);
   opacity: 1;
 }
 
@@ -224,39 +238,24 @@ body {
   background-color: rgb(248, 248, 248);
   opacity: 1;
 }
-.our_wines h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: bold;
-  font-weight: 900;
-  font-size: 25px;
-  background-color: rgb(248, 248, 248);
-  align-content: space-around;
-  opacity: 1;
-}
-/* .our_wines_parent p {
-  text-align: left;
-  font-family: sans-serif;
-  color: rgb(66, 66, 66);
-  font-weight: 100;
-  font-size: 20px;
-} */
+
 
 .our_wines_child {
   display: grid;
   padding-left: 200px;
   padding-right: 200px;
   background-color: rgb(248, 248, 248);
-  align-content: center;
+  justify-content: center;
   opacity: 1;
 }
 
 .our_wines_child a {
+  display: grid;
+  justify-items: end;
   text-decoration: none;
   color: black;
-  position: relative;
-  text-align: center;
+  position:absolute;
+  text-align: left;
   font-weight: 500;
 }
 
@@ -264,15 +263,20 @@ body {
   display: flex;
   position: relative;
   align-content: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .our_wines_img2 {
   display: flex;
   position: relative;
+  align-content: center;
+  background-color: rgb(248, 248, 248);
 }
 .our_wines_img3 {
   display: flex;
   position: relative;
+  align-content: center;
+  background-color: rgb(248, 248, 248);
 }
 /* .our_wines_child3 p {
   text-align: right;
@@ -291,66 +295,6 @@ body {
   height: 267px;
 }
 
-.quality {
-  background-color: rgb(248, 248, 248);
-  align-content: space-around;
-  opacity: 0.8;
-}
-.quality_parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-left: 460px;
-  padding-right: 470px;
-}
-.quality h1 {
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: 900;
-  font-size: 25px;
-  padding-left: 50px;
-}
-.quality_child p {
-  text-align: left;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(49, 49, 49);
-  font-weight: lighter;
-  font-size: 20px;
-  padding-left: 50px;
-  line-height: 1.5;
-}
-.quality-img {
-  border: none;
-}
-
-.cool_climate_parent {
-  display: grid;
-  grid-template-columns: 0.7fr 1.3fr;
-  padding-left: 460px;
-  padding-right: 470px;
-}
-.cool_climate {
-  background-color: rgb(248, 248, 248);
-  align-content: space-around;
-  opacity: 1;
-}
-.cool_climate h1 {
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: 900;
-  font-size: 25px;
-  padding-left: 50px;
-}
-.cool_climate p {
-  text-align: left;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(49, 49, 49);
-  font-weight: lighter;
-  font-size: 20px;
-  padding-left: 50px;
-  line-height: 1.5;
-}
 .scroll_images {
   border: none;
 }
@@ -363,36 +307,6 @@ body {
   justify-items: center;
 }
 
-.latest_release_parent {
-  display: grid;
-  grid-template-columns: 1.25fr 0.75fr;
-  padding-left: 460px;
-  padding-right: 470px;
-}
-
-.latest_release {
-  background-color: rgb(248, 248, 248);
-  align-content: space-around;
-  opacity: 1;
-}
-
-.latest_release h1 {
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: 900;
-  font-size: 25px;
-  padding-left: 50px;
-}
-.latest_release_child p {
-  text-align: left;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(49, 49, 49);
-  font-weight: lighter;
-  font-size: 20px;
-  padding-left: 50px;
-  line-height: 1.5;
-}
 
 .multi_images_parent {
   display: flex;
