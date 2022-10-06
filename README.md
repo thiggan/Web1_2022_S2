@@ -24,6 +24,12 @@ There will be buttons to click on to take you to different parts of the website 
 
 ## Credits
 
+Inspiration taken form these places for use on my website
+
+https://codepen.io/williamliaw/pen/gPMdrm
+
+https://codepen.io/pen/
+
 ## License 
 
 ## Badges
