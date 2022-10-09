@@ -16,16 +16,16 @@ body {
 
 .fixed_sidebar {
   display: grid;
-  position: fixed;
-  justify-content: center;
-  height: 12%;
-  width: 2.5%;
+  position:fixed;
+  justify-content:space-evenly;
+  height: 11.5vh;
+  width: 5vh;
   background-color: black;
-  margin-top: 30%;
-  margin-left: 0.15;
+  margin: 30% 0 0 0.05%;
   border-style: solid;
   border-color: white;
   border-width: thin;
+
 }
 
 .fixed_sidebar a {
@@ -70,16 +70,20 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   background-color: black;
+  position:relative;
   opacity: 0.7;
   /* width: 50%; */
   justify-content: space-between;
-  height: auto;
+  width: 886px;
+  height: 540px;
 }
 .close_X {
   display: flex;
   font-size: 100px;
   margin-top: 30%;
   margin-left: 50%;
+  justify-self:self-start;
+ 
 }
 
 .hovertext {
@@ -88,7 +92,10 @@ body {
 }
 
 .modal_first_column {
-  display: flex;
+  display: grid;
+  align-content: center;
+  margin-left: 10%;
+  
 }
 
 .modal_first_column ul {
@@ -100,26 +107,30 @@ body {
   text-decoration: none;
   align-self: center;
   font-size: large;
-  font-weight: bolder;
-  font-family: "Times New Roman", Times, serif;
+  font-weight:bolder;
+  font-family:sans-serif;
+  
 }
 
 .modal_middle_column {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  align-self:center;
 }
 
 .modal_middle_column ul {
   list-style: none;
+  
 }
 
 .modal_middle_column a {
   text-decoration: none;
   color: white;
+
 }
 
 .modal_last_column {
-  display: flex;
+  display: grid;
+
 }
 
 .modal_last_column ul {
@@ -129,6 +140,7 @@ body {
 .modal_last_column a {
   text-decoration: none;
   color: white;
+  justify-self: end;
 }
 
 .ara_image {
