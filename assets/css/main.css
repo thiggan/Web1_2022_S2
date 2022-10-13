@@ -85,11 +85,6 @@ body {
   align-content: flex-end;
 }
 
-/* .hovertext {
-  position: relative;
-  border-bottom: 1px dotted black;
-} */
-
 .modal h4 {
   font-weight: 900;
 }
