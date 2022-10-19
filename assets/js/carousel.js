@@ -11,9 +11,9 @@ function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
 
-function showSlides(n, no) {
+showSlides(n, no => {
   let i;
-  let x = document.getElementsByClassName(slideId[no]);
+  let x = document.querySelector("." + slideId[no]);
   if (n > x.length) {slideIndex[no] = 1}    
   if (n < 1) {slideIndex[no] = x.length}
   for (i = 0; i < x.length; i++) {
