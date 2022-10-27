@@ -5,14 +5,16 @@ fetch(`${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&clie
 .then(data =>{
   
 data["results"].forEach(result =>{
-  let img_url = result["urls"]["regular"]
+  let img_url = result["urls"]["small"]
   let img = document.createElement("img")
   img.src = img_url
+  img.style = "width: 125%"
   
-  document.querySelector("cool_climate").append(img)
+  document.querySelector(".scroll_images").append(img)
   
     })
 })
+  
 
 let slideIndex = [1,1];
 let slideId = ["mySlides1", "mySlides2"]
