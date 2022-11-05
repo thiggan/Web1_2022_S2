@@ -1,0 +1,28 @@
+<img />
+<img />
+<img />
+
+<script>
+
+let imgs = document.querySelectorAll('img'); 
+//imgs.forEach(img => {
+//  console.log(`url ${img}`)
+//});
+
+let urls = [
+        "https://icatcare.org/app/uploads/2018/07/Elderly-cats.png",
+        "https://hips.hearstapps.com/hmg-prod/images/domestic-cat-lies-in-a-basket-with-a-knitted-royalty-free-image-1592337336.jpg",
+        "https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg?q=60"
+    ];
+
+imgs.forEach((img, index) => {
+  console.log(`url ${img}, index ${index}`);
+  
+  img.src = urls[index];
+});
+
+</script>
+
+                
+ 
+        
