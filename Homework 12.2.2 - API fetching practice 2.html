@@ -1,0 +1,44 @@
+<ul id="pokemonName"></ul>
+
+<script>
+
+const BASE = "https://pokeapi.co/api/v2";
+const URL = `${BASE}/pokemon?limit=20&offset=0`;
+//console.log(url);
+
+fetch(URL)
+  .then((response) => response.json())
+  .then((data) => {
+    //console.log(data);
+
+    let PokemonList = data.results;
+    //console.log(names);
+
+    PokemonList.forEach((pokemon) => {
+      //console.log(Pokemon.name);
+
+      let name = pokemon.name;
+      let pokemonurl = pokemon.url;
+      //console.log(pokemonurl);
+
+      fetch(pokemonurl)
+        .then((response) => response.json())
+        .then((data) => {
+          //console.log(data);
+
+          let pokemonAbilities = data.abilities; //abilities comes from the API data this is what the field is called 
+          //console.log(pokemonAbilities.length);
+          abilityCount = pokemonAbilities.length;
+
+        
+        //getting the ailities via pokemon name, creating a list item for the abilities and adding them to the ability count
+          let ul = document.getElementById("pokemonName");
+          let li = document.createElement("li");
+          li.appendChild(document.createTextNode(`${name} (${abilityCount} abilities)`));
+          //li.setAttribute("id", "element4"); // added line
+          ul.appendChild(li);
+        });
+    });
+  });
+
+</script>

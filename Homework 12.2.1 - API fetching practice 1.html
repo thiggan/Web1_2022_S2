@@ -1,0 +1,31 @@
+
+<ul id="pokemonName"></ul>;
+
+<script>
+const BASE = "https://pokeapi.co/api/v2";
+const URL = `${BASE}/pokemon?limit=20&offset=0`;
+
+//console.log(url);
+fetch(URL)
+  .then((response) => response.json())
+  .then((data) => {
+    //console.log(data);
+
+    let PokemonList = data.results;
+    //console.log(names);
+
+    PokemonList.forEach((pokemon) => {
+      //console.log(Pokemon.name);
+
+      let ul = document.getElementById("pokemonName");
+      let name = pokemon.name;
+      let li = document.createElement("li");
+      li.appendChild(document.createTextNode(name));
+      //li.setAttribute("id", "element4"); // added line
+      ul.appendChild(li);
+    });
+  });
+
+</script>
+
+
