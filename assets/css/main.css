@@ -431,7 +431,9 @@ a:active {
 /* NEW FOOTER */
 footer {
   line-height: 1.5;
-  background-color: black;
+  background: black;
+
+  
 }
 
 
