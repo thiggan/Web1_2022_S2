@@ -1,18 +1,20 @@
 const BASE_URL = `https://api.unsplash.com`;
+const URL = `${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&client_id=HSnjWCtFB_SV_n99iu2Mr32d5mk1b5W6n5yXpGLZx28`;
+console.log(URL);
 
-const pictures = [0, 1, 2, 3, 4, 5];
-
-fetch(
-  `${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&client_id=HSnjWCtFB_SV_n99iu2Mr32d5mk1b5W6n5yXpGLZx28`
-)
+fetch(URL)
   .then((response) => response.json())
   .then((data) => {
     data["results"].forEach((result, index) => {
       let img_url = result["urls"]["small"];
+      console.log(img_url);
     });
   });
 
-  
+
+/////
+
+
 let slideIndex = [1, 1];
 let slideId = ["mySlides1", "mySlides2"];
 
