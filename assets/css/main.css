@@ -383,9 +383,9 @@ a:active {
 .mySlides2 {
   display: none;
 }
-/* img {
-  vertical-align: middle;
-} */
+.mySlides2 img {
+  max-width: 100%;
+}
 
 /* Slideshow container */
 .slideshow-container {

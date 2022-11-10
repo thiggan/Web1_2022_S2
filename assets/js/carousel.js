@@ -9,7 +9,7 @@ fetch(URL)
   .then((response) => response.json())
   .then((data) => {
     data["results"].forEach((result, index) => {
-      let img_url = result["urls"]["small"];
+      let img_url = result["urls"]["regular"];
       console.log(img_url);
 
       // if (index % 2 == 0) {
