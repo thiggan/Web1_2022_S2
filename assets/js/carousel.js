@@ -25,6 +25,17 @@ fetch(URL)
 
     carousel_1.forEach((result, index) => {
       console.log(`carousel_1 ${result}`);
+
+      let slideContainer = document.getElementById("slideshow1");
+
+      let mySlide = document.createElement("div");
+      mySlide.setAttribute("class", "mySlides1 fade");
+
+      let img = document.createElement("img");
+      img.setAttribute("src", result);
+
+      mySlide.appendChild(img);
+      slideContainer.appendChild(mySlide);
     });
 
     carousel_2.forEach((result, index) => {
@@ -73,8 +84,8 @@ let showSlides = (n, no) => {
   x[slideIndex[no] - 1].style.display = "block";
 };
 
-setInterval(() => plusSlides(1, 0), 2000);
-setInterval(() => plusSlides(1, 1), 2000);
+setInterval(() => plusSlides(1, 0), 1500);
+setInterval(() => plusSlides(1, 1), 1500);
 
 showSlides(1, 0);
 showSlides(1, 1);

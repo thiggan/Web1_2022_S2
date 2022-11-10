@@ -383,6 +383,10 @@ a:active {
 .mySlides2 {
   display: none;
 }
+
+.mySlides1 img {
+  max-width: 100%;
+}
 .mySlides2 img {
   max-width: 100%;
 }
