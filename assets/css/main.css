@@ -165,7 +165,8 @@ body {
 }
 
 .Wines h1 {
-  margin-left: 35%;
+  text-align:left;
+  margin-left: 37%;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   font-weight: 700;
@@ -195,12 +196,13 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 460px;
-  padding-right: 470px;
+  padding-right: 470px; 
+
 }
 
 .box {
   background-color: rgb(248, 248, 248);
-  align-content: space-;
+  align-content: space-around;
   opacity: 0.8;
 }
 
@@ -241,6 +243,7 @@ body {
 
 .box-img {
   background: white;
+ 
   /* border: solid; */
 }
 
@@ -438,16 +441,6 @@ footer {
   background: black;
 }
 
-footer .fa-circle-ellipsis {
-  position: fixed;
-  color: white;
-}
-
-@media (max-width: 1300px) {
-  .footer {
-    justify-self: center;
-  }
-}
 
 footer ul {
   list-style: none;
@@ -627,4 +620,11 @@ footer a {
   width: 886px;
   height: 540px;
   color: white;
+}
+
+#dots{
+  color: blue;
+  position: center;
+  visibility: visible;
+  size: 500%;
 }
