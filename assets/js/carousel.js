@@ -1,3 +1,34 @@
+// click handlers
+
+let coolClimateScrollLeft = document.getElementById("coolClimateScroll_left");
+//console.log(coolClimateScrollLeft);
+coolClimateScrollLeft.addEventListener("click", (e) => {
+  //console.log("coolClimateScrollLeft");
+  plusSlides(-1, 0);
+});
+
+let coolClimateScrollRight = document.getElementById("coolClimateScroll_right");
+//console.log(coolClimateScrollRight);
+coolClimateScrollRight.addEventListener("click", (e) => {
+  //console.log("coolClimateScrollRight");
+  plusSlides(1, 0);
+});
+
+let ourLatestReleaseScrollLeft = document.getElementById("ourLatestReleaseScroll_Left");
+//console.log("ourLatestReleaseScrollLeft");
+ourLatestReleaseScrollLeft.addEventListener("click", (e) => {
+  console.log("ourLatestReleaseScrollLeft");
+  plusSlides(-1, 1);
+});
+
+let ourLatestReleaseScrollRight = document.getElementById("ourLatestReleaseScroll_right");
+//console.log(ourLatestReleaseScrollRight);
+ourLatestReleaseScrollRight.addEventListener("click", (e) => {
+  console.log("ourLatestReleaseScrollRight");
+  plusSlides(1, 1);
+});
+
+
 const BASE_URL = `https://api.unsplash.com`;
 const URL = `${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&client_id=HSnjWCtFB_SV_n99iu2Mr32d5mk1b5W6n5yXpGLZx28`;
 //console.log(URL);
@@ -10,7 +41,7 @@ fetch(URL)
   .then((data) => {
     data["results"].forEach((result, index) => {
       let img_url = result["urls"]["regular"];
-      console.log(img_url);
+      //console.log(img_url);
 
       // if (index % 2 == 0) {
       //   //console.log("even");
@@ -24,7 +55,7 @@ fetch(URL)
     });
 
     carousel_1.forEach((result, index) => {
-      console.log(`carousel_1 ${result}`);
+      //console.log(`carousel_1 ${result}`);
 
       let slideContainer = document.getElementById("slideshow1");
 
@@ -39,7 +70,7 @@ fetch(URL)
     });
 
     carousel_2.forEach((result, index) => {
-      console.log(`carousel_2 ${result}`);
+      //console.log(`carousel_2 ${result}`);
 
       // needs to look like
       // <div class="mySlides1">

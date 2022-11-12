@@ -282,7 +282,7 @@ body {
   color: black;
 }
 
-@media (max-width: 1300px)  {
+@media (max-width: 1300px) {
   .our-wine-family-container {
     height: auto;
     align-content: center;
@@ -386,17 +386,17 @@ a:active {
 
 .mySlides1 img {
   min-width: 200px;
-  max-width:650px;
+  max-width: 650px;
 }
 .mySlides2 img {
   min-width: 200px;
-  max-width:650px;
+  max-width: 650px;
 }
 
 /* Slideshow container */
 .slideshow-container {
   min-width: 200px;
-  max-width:650px;
+  max-width: 650px;
   position: relative;
   margin: auto;
 }
