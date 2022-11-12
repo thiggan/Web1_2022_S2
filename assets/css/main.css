@@ -210,7 +210,7 @@ body {
   align-content: center;
 }
 
-@media (max-width: 100em) and (orientation: portrait) {
+@media (max-width: 1300px) {
   .box_parent {
     grid-template-columns: 1fr;
     justify-content: center;
@@ -282,7 +282,7 @@ body {
   color: black;
 }
 
-@media (max-width: 100em) and (orientation: portrait) {
+@media (max-width: 1300px)  {
   .our-wine-family-container {
     height: auto;
     align-content: center;
@@ -312,7 +312,7 @@ a:active {
   justify-items: center;
 }
 
-@media (max-width: 100em) {
+@media (max-width: 1300px) {
   .ara_image {
     justify-items: center;
   }
@@ -385,15 +385,18 @@ a:active {
 }
 
 .mySlides1 img {
-  max-width: 100%;
+  min-width: 200px;
+  max-width:650px;
 }
 .mySlides2 img {
-  max-width: 100%;
+  min-width: 200px;
+  max-width:650px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  min-width: 200px;
+  max-width:650px;
   position: relative;
   margin: auto;
 }
@@ -440,7 +443,7 @@ footer .fa-circle-ellipsis {
   color: white;
 }
 
-@media (max-width: 100em) {
+@media (max-width: 1300px) {
   .footer {
     justify-self: center;
   }
