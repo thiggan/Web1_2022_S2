@@ -247,6 +247,7 @@ body {
   /* border: solid; */
 }
 
+
 /* our wine family */
 
 .our-wine-family-container {
@@ -348,34 +349,94 @@ a:active {
   justify-items: center;
 }
 
+.heart {
+  padding-top: 160px;
+  padding-left: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+
+.fa-heart {
+  color: red;
+  font-size: 22px;
+}
+
+
+
 .grid1 {
+  position: relative;
+  display: inline-block;
+
   display: grid;
   margin: 1px;
   gap: 10%;
 }
+.grid1:hover .heart{
+  display:block;
+}
+
+
 .grid2 {
+  position: relative;
+  display: inline-block;
+
   display: grid;
   margin: 1px;
   gap: 10%;
 }
-.grid3 {
-  display: flex;
-  margin: 1px;
+.grid2:hover .heart{
+  display:block;
 }
-.grid4 {
-  display: flex;
+
+.grid3 {
+  position: relative;
+  display: inline-block;
+
+  display: grid;
   margin: 1px;
+  gap: 10%;
+}
+.grid3:hover .heart{
+  display:block;
+}
+
+.grid4 {
+  position: relative;
+  display: inline-block;
+
+  display: grid;
+  margin: 1px;
+  gap: 10%;
+}
+.grid4:hover .heart{
+  display:block;
 }
 .grid5 {
-  display: flex;
+  display: grid;
+  position: relative;
+  display: inline-block;
   margin: 1px;
+  gap: 10%;
   margin-top: -2.2%;
   margin-bottom: 0.3%;
 }
+
+.grid5:hover .heart{
+  display:block;
+}
 .grid6 {
-  display: flex;
+  display: grid;
+  position: relative;
+  display: inline-block;
   margin: 1px;
+  gap: 10%;
   margin-bottom: 0.3%;
+}
+.grid6:hover .heart{
+  display:block;
 }
 
 * {
