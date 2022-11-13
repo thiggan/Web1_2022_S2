@@ -7,11 +7,11 @@ This is a project to look at a website, look at how it is constructed and replic
 I will search for images to use and credit these where applicable these will not be the same as the original website though. Use fonts the same or as close as I can get to make it look the same. The website will have the same features as the original. 
 I will be using HTML, Javascript and CSS to create this website. I have used a variety of styles, and a carousel with images fetched using API data. These each contain three images and they change every 1.5 seconds. 
 Some features used:
-### 1. Modal with links and a close button on
-### 2. Fixed socaial bar on the left-side
-### 3. Two different carousels
-### 4. A page that will resize and is responsive
-### 5. Flex and Grid structures
+#### 1. Modal with links and a close button on
+#### 2. Fixed socaial bar on the left-side
+#### 3. Two different carousels
+#### 4. A page that will resize and is responsive
+#### 5. Flex and Grid structures
 
 
 # Contents
