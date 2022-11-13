@@ -350,11 +350,8 @@ a:active {
 }
 
 .heart {
-  padding-top: 160px;
-  padding-left: 10px;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 10px;
   display: none;
 }
 
@@ -363,8 +360,6 @@ a:active {
   color: red;
   font-size: 22px;
 }
-
-
 
 .grid1 {
   position: relative;
@@ -376,8 +371,9 @@ a:active {
 }
 .grid1:hover .heart{
   display:block;
-}
 
+  bottom: 50px;
+}
 
 .grid2 {
   position: relative;
@@ -389,6 +385,8 @@ a:active {
 }
 .grid2:hover .heart{
   display:block;
+
+  bottom: 50px;
 }
 
 .grid3 {
@@ -401,6 +399,8 @@ a:active {
 }
 .grid3:hover .heart{
   display:block;
+
+  bottom: 15px;
 }
 
 .grid4 {
@@ -413,7 +413,10 @@ a:active {
 }
 .grid4:hover .heart{
   display:block;
+
+  bottom: 15px;
 }
+
 .grid5 {
   display: grid;
   position: relative;
@@ -423,10 +426,12 @@ a:active {
   margin-top: -2.2%;
   margin-bottom: 0.3%;
 }
-
 .grid5:hover .heart{
   display:block;
+
+  bottom: 15px;
 }
+
 .grid6 {
   display: grid;
   position: relative;
@@ -437,6 +442,8 @@ a:active {
 }
 .grid6:hover .heart{
   display:block;
+
+  bottom: 15px;
 }
 
 * {
