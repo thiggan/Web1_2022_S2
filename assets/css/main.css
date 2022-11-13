@@ -356,7 +356,11 @@ a:active {
 }
 
 
-.fa-heart {
+.heart .fa-regular {
+  color: white;
+  font-size: 22px;
+}
+.heart .fa-solid{
   color: red;
   font-size: 22px;
 }
