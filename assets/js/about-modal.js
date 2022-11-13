@@ -9,4 +9,10 @@ $('#about-modal-close').on('click', function(e) {
 
 });
 
+$('#ellipsis').on('click', function(e){
+  $('#ellipsis_menu').toggleClass("ellipsis_menu_show");
+  //alert('fuck yearh');
+  e.preventDefault();
+});
+
 
