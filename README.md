@@ -53,6 +53,8 @@ https://ryfarlane.com/article/toggle-class-vanilla-javascript
 
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 
+https://stackoverflow.com/questions/41152161/opacity-animation-for-background-image
+
 
 
 ## License 
