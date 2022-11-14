@@ -5,8 +5,6 @@
 
 
 
-
-
 // https://ryfarlane.com/article/toggle-class-vanilla-javascript
 // toggling classes
 
