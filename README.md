@@ -12,6 +12,7 @@ Some features used:
 #### 3. Two different carousels
 #### 4. A page that will resize and is responsive
 #### 5. Flex and Grid structures
+#### 6. Font Awesome was used for the icons
 
 
 # Contents
@@ -21,21 +22,34 @@ Some features used:
  ### 1.3 Information about the quality of the wine
  ### 1.4 The Climate of the region
  ### 1.5 Latest Wines
+
+## 2. Social Media Links (Main ones used)
+### 2.1 Facebook
+### 2.2 Instagram
+
  
  ## Installation and running the project
  Open up Visual Stusio code and navingate to the project - Web1_2022_S2 - this links to the Go Live http://127.0.0.1:5500/ara_wines.html. 
  
  
  ## How to use this website
-This site is designed to give the user more information about the wines produced. Once this has loaded the website should run and you will be able to browse it. There are links to navigate to other areas within the site most of these will have a pointer cursor on them. Navigation is easy around the site. 
+This site is designed to give the user more information about the wines produced by Ara wines. Once this has loaded the website should run and you will be able to browse it. There are links to navigate to each section within the site most of these will have a pointer cursor on them. Navigation should be easy around the site. 
 
 ## Credits
 
-I have used code taken form these sites to help with the building of my website
+I have used code an images taken form these sites to help with the building of my website
+
+https://www.arawines.co.nz
 
 https://codepen.io/williamliaw/pen/gPMdrm
 
 https://codepen.io/pen/
+
+https://fontawesome.com/
+
+https://unsplash.com/developers
+
+
 
 ## License 
 
