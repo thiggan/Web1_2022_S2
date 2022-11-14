@@ -49,6 +49,10 @@ https://fontawesome.com/
 
 https://unsplash.com/developers
 
+https://ryfarlane.com/article/toggle-class-vanilla-javascript
+
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+
 
 
 ## License 
