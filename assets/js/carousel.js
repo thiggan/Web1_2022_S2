@@ -1,27 +1,27 @@
 // click handlers
 
-let coolClimateScrollLeft = document.getElementById("coolClimateScroll_left");
+let coolClimateScrollLeft = document.querySelector(`#coolClimateScroll_left`);
 //console.log(coolClimateScrollLeft);
 coolClimateScrollLeft.addEventListener("click", (e) => {
   //console.log("coolClimateScrollLeft");
   plusSlides(-1, 0);
 });
 
-let coolClimateScrollRight = document.getElementById("coolClimateScroll_right");
+let coolClimateScrollRight = document.querySelector(`#coolClimateScroll_right`);
 //console.log(coolClimateScrollRight);
 coolClimateScrollRight.addEventListener("click", (e) => {
   //console.log("coolClimateScrollRight");
   plusSlides(1, 0);
 });
 
-let ourLatestReleaseScrollLeft = document.getElementById("ourLatestReleaseScroll_Left");
+let ourLatestReleaseScrollLeft = document.querySelector("#ourLatestReleaseScroll_Left");
 //console.log("ourLatestReleaseScrollLeft");
 ourLatestReleaseScrollLeft.addEventListener("click", (e) => {
   console.log("ourLatestReleaseScrollLeft");
   plusSlides(-1, 1);
 });
 
-let ourLatestReleaseScrollRight = document.getElementById("ourLatestReleaseScroll_right");
+let ourLatestReleaseScrollRight = document.querySelector("#ourLatestReleaseScroll_right");
 //console.log(ourLatestReleaseScrollRight);
 ourLatestReleaseScrollRight.addEventListener("click", (e) => {
   console.log("ourLatestReleaseScrollRight");
@@ -29,35 +29,27 @@ ourLatestReleaseScrollRight.addEventListener("click", (e) => {
 });
 
 
-const BASE_URL = `https://api.unsplash.com`;
-const URL = `${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&client_id=HSnjWCtFB_SV_n99iu2Mr32d5mk1b5W6n5yXpGLZx28`;
+
+    const BASE_URL = `https://api.unsplash.com`;
+    const URL = `${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&client_id=HSnjWCtFB_SV_n99iu2Mr32d5mk1b5W6n5yXpGLZx28`;
 //console.log(URL);
 
 let carousel_1 = [];
 let carousel_2 = [];
 
-fetch(URL)
+fetch(URL) 
   .then((response) => response.json())
   .then((data) => {
     data["results"].forEach((result, index) => {
       let img_url = result["urls"]["regular"];
-      //console.log(img_url);
-
-      // if (index % 2 == 0) {
-      //   //console.log("even");
-      //   carousel_1.push(img_url);
-      // } else {
-      //   //console.log("odd");
-      //   carousel_2.push(img_url);
-      // }
-
+    
       index % 2 == 0 ? carousel_1.push(img_url) : carousel_2.push(img_url);
     });
 
     carousel_1.forEach((result, index) => {
       //console.log(`carousel_1 ${result}`);
 
-      let slideContainer = document.getElementById("slideshow1");
+      let slideContainer = document.querySelector("#slideshow1");
 
       let mySlide = document.createElement("div");
       mySlide.setAttribute("class", "mySlides1 fade");
@@ -70,14 +62,8 @@ fetch(URL)
     });
 
     carousel_2.forEach((result, index) => {
-      //console.log(`carousel_2 ${result}`);
-
-      // needs to look like
-      // <div class="mySlides1">
-      //  <img src="assets\images\Cool_climate1.jpg" />
-      // </div>
-
-      let slideContainer = document.getElementById("slideshow2");
+     
+      let slideContainer = document.querySelector("#slideshow2");
 
       let mySlide = document.createElement("div");
       mySlide.setAttribute("class", "mySlides2 fade");
@@ -90,7 +76,7 @@ fetch(URL)
     });
   });
 
-/////
+
 // adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 let slideIndex = [1, 1];

@@ -86,540 +86,6 @@ body {
   margin-top: 150%;
   cursor: pointer;
 }
-
-.modal_container {
-  display: grid;
-  grid-template-columns: 3fr 1.5fr 1fr 1fr;
-  background-color: rgb(64, 64, 64);
-  position: relative;
-  opacity: 0.7;
-  justify-content: space-evenly;
-  width: 886px;
-  height: 540px;
-  overflow: auto;
-}
-
-.close_X {
-  display: flex;
-  font-size: 100px;
-  margin-top: 30%;
-  margin-left: 50%;
-  align-content: flex-end;
-}
-
-.modal h4 {
-  font-weight: 900;
-}
-
-.modal_first_column {
-  display: grid;
-  align-content: center;
-  margin-left: 10%;
-}
-
-.modal_first_column ul {
-  list-style: none;
-}
-
-.modal_first_column a {
-  color: white;
-  text-decoration: none;
-  align-self: flex-end;
-  font-size: large;
-  font-weight: bolder;
-  font-family: sans-serif;
-}
-
-.modal_middle_column {
-  display: flex;
-  align-self: flex-end;
-  line-height: 0.5;
-}
-
-.modal_middle_column ul {
-  list-style: none;
-}
-
-.modal_middle_column a {
-  text-decoration: none;
-  color: white;
-}
-
-.end_section {
-  padding-top: 50%;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-}
-
-
-.modal_last_column {
-  display: flex;
-  flex-direction: column;
-  align-self: auto;
-  line-height: 0.5;
-}
-
-.modal_last_column ul {
-  list-style: none;
-}
-
-.modal_last_column a {
-  text-decoration: none;
-  color: white;
-  justify-self: end;
-}
-
-.ara_image {
-  display: flex;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  padding-top: 30px;
-  justify-items: center;
-  padding-bottom: 20px;
-}
-
-.ellipsis{
-  visibility: hidden;
-}
-@media(max-width: 100em){
-  .ellipsis{
-
-    visibility: visible;
-    margin-left: 80%;
-    position: fixed;
-    color: black;
-  }
-}
-.ellipsis_menu{
-  visibility: hidden;
-}
-.ellipsis_menu_show{
-  visibility: visible;
-}
-
-.Wines {
-  background-color: white;
-}
-
-.Wines h1 {
-  text-align:left;
-  margin-left: 37%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: 700;
-  font-size: 200%;
-  line-height: 2.5;
-}
-.Wines p {
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(49, 49, 49);
-  font-weight: lighter;
-  font-size: 150%;
-  padding-left: 50px;
-  line-height: 1.5;
-  cursor: pointer;
-}
-
-.arrow_link {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  justify-items: center;
-}
-
-.box_parent {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-left: 460px;
-  padding-right: 470px; 
-
-}
-
-@media(max-width:100em){
-  .box_parent{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-content: center;
-  }
-}
-
-.box {
-  background-color: rgb(248, 248, 248);
-  align-content: space-around;
-  opacity: 0.8;
-}
-
-.box_parent div {
-  max-width: 100vw;
-  max-height: 100vh;
-  align-content: center;
-  
-}
-
-
-
-
-
-.box h1 {
-  /* background-color: lightgray; */
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-weight: 900;
-  font-size: 25px;
-  padding-left: 50px;
-  margin-top: 10%;
-}
-
-.box p {
-  /* background-color: lightgray; */
-  text-align: left;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(49, 49, 49);
-  font-weight: lighter;
-  font-size: 20px;
-  padding-left: 50px;
-  line-height: 1.5;
-}
-
-.box-img {
-    background: white;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-    animation-name: fadein;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    
- 
-  /* border: solid; */
-}
-
-@keyframes fadein{
-  0% { opacity:0; }
-  25% { opacity:0.3;}
-  50% { opacity:0.5;}
-  75% { opacity:0.7; }
-  100% { opacity:1; }
-}
-
-
-
-
-/* our wine family */
-
-.our-wine-family-container {
-  display: grid;
-  background-color: rgb(248, 248, 248);
-  height: 500px;
-  justify-content: center;
-  align-content: space-between;
-}
-.our-wine-family-container h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 200%;
-}
-
-.flex-grid-thirds {
-  display: flex;
-  opacity: 1;
-  height: auto;
-}
-.col img {
-  display: grid;
-  justify-self: center;
-  margin: 0 auto;
-  height: 50%;
-}
-.col h3 {
-  text-align: center;
-  font-size: 140%;
-  font-weight: 600;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.col a {
-  text-decoration: none;
-  color: black;
-}
-
-@media (max-width: 1300px) {
-  .our-wine-family-container {
-    height: auto;
-    align-content: center;
-  }
-  .flex-grid-thirds {
-    flex-direction: column;
-    align-content: center;
-  }
-}
-
-a:hover,
-a:active {
-  color: rgb(80, 80, 80);
-}
-
-/* /our wine family */
-
-/* .scroll_images .box p {
-  border: none;
-} */
-
-.ara_image {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding-left: 500px;
-  padding-right: 500px;
-  justify-items: center;
-}
-
-@media (max-width: 1300px) {
-  .ara_image {
-    justify-items: center;
-  }
-}
-
-/* .button .icon{
- 
-  display: flex;
-  flex-direction: row;
-  align-self:flex-start;
-} */
-
-.multi_images_container {
-  display: grid;
-}
-
-
-
-.multi_images_parent {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: start;
-  align-items: auto;
-  align-content: center;
-  justify-items: center;
-  overflow: auto;
-  
-}
-
-@media(max-width: 100em){
-  .multi_images_container{
-    align-content: center;
-  }
-}
-
-.heart {
-  position: absolute;
-  left: 10px;
-  display: none;
-}
-
-
-.heart .fa-regular {
-  color: white;
-  font-size: 22px;
-}
-.heart .fa-solid{
-  color: red;
-  font-size: 22px;
-}
-
-.grid1 {
-  position: relative;
-  display: inline-block;
-
-  display: grid;
-  margin: 1px;
-  gap: 10%;
-}
-.grid1:hover .heart{
-  display:block;
-
-  bottom: 50px;
-}
-
-.grid2 {
-  position: relative;
-  display: inline-block;
-
-  display: grid;
-  margin: 1px;
-  gap: 10%;
-}
-.grid2:hover .heart{
-  display:block;
-
-  bottom: 50px;
-}
-
-.grid3 {
-  position: relative;
-  display: inline-block;
-
-  display: grid;
-  margin: 1px;
-  gap: 10%;
-}
-.grid3:hover .heart{
-  display:block;
-
-  bottom: 15px;
-}
-
-.grid4 {
-  position: relative;
-  display: inline-block;
-
-  display: grid;
-  margin: 1px;
-  gap: 10%;
-}
-.grid4:hover .heart{
-  display:block;
-
-  bottom: 15px;
-}
-
-.grid5 {
-  display: grid;
-  position: relative;
-  display: inline-block;
-  margin: 1px;
-  gap: 10%;
-  margin-top: -2.2%;
-  margin-bottom: 0.3%;
-}
-.grid5:hover .heart{
-  display:block;
-
-  bottom: 15px;
-}
-
-.grid6 {
-  display: grid;
-  position: relative;
-  display: inline-block;
-  margin: 1px;
-  gap: 10%;
-  margin-bottom: 0.3%;
-}
-.grid6:hover .heart{
-  display:block;
-
-  bottom: 15px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.mySlides1,
-.mySlides2 {
-  display: none;
-}
-
-.mySlides1 img {
-  min-width: 200px;
-  max-width: 650px;
-}
-.mySlides2 img {
-  min-width: 200px;
-  max-width: 650px;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  min-width: 200px;
-  max-width: 650px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/*trim this down too many styles etc*/
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a grey background color */
-.prev:hover,
-.next:hover {
-  background-color: #f1f1f1;
-}
-
-/* NEW FOOTER */
-footer {
-  line-height: 1.5;
-  background: black;
-}
-
-
-footer ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.no_underline a {
-  text-decoration: none;
-  color: white;
-}
-
-footer a {
-  text-decoration: underline;
-  color: white;
-}
-
-/* footer a:hover {
-  text-decoration: underline;
-} */
-
-.ft-main {
-  padding: 1.25rem 1.875rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.ft-main-item {
-  color: white;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 0% 15% 0% 15%;
-  align-self: auto;
-  line-height: 1.5;
-  font-weight: bold;
-}
-
-
-
-/* about modal content */
-
 .about-container {
   display: grid;
   grid-template-columns: 0.3fr 3.6fr 1fr 1.5fr 0.2fr 1.5fr 0.5fr;
@@ -761,6 +227,492 @@ footer a {
   height: 540px;
   color: white;
 }
+
+
+.modal_container {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 1fr 1fr;
+  background-color: rgb(64, 64, 64);
+  position: relative;
+  opacity: 0.7;
+  justify-content: space-evenly;
+  width: 886px;
+  height: 540px;
+  overflow: auto;
+}
+
+.close_X {
+  display: flex;
+  font-size: 100px;
+  margin-top: 30%;
+  margin-left: 50%;
+  align-content: flex-end;
+}
+
+.modal h4 {
+  font-weight: 900;
+}
+
+.modal_first_column {
+  display: grid;
+  align-content: center;
+  margin-left: 10%;
+}
+
+.modal_first_column ul {
+  list-style: none;
+}
+
+.modal_first_column a {
+  color: white;
+  text-decoration: none;
+  align-self: flex-end;
+  font-size: large;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.modal_middle_column {
+  display: flex;
+  align-self: flex-end;
+  line-height: 0.5;
+}
+
+.modal_middle_column ul {
+  list-style: none;
+}
+
+.modal_middle_column a {
+  text-decoration: none;
+  color: white;
+}
+
+.end_section {
+  padding-top: 50%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+
+.modal_last_column {
+  display: flex;
+  flex-direction: column;
+  align-self: auto;
+  line-height: 0.5;
+}
+
+.modal_last_column ul {
+  list-style: none;
+}
+
+.modal_last_column a {
+  text-decoration: none;
+  color: white;
+  justify-self: end;
+}
+
+.ara_image {
+  display: flex;
+  grid-template-columns: 1fr;
+  /* padding-left: 500px;
+  padding-right: 500px; */
+  padding-top: 30px;
+  justify-items: center;
+  padding-bottom: 20px;
+}
+
+.ellipsis{
+  visibility: hidden;
+}
+@media(max-width: 100em){
+  .ellipsis{
+
+    visibility: visible;
+    margin-left: 80%;
+    position: fixed;
+    color: black;
+  }
+}
+.ellipsis_menu{
+  visibility: hidden;
+}
+.ellipsis_menu_show{
+  visibility: visible;
+}
+
+.Wines {
+  background-color: white;
+}
+
+.Wines h1 {
+  text-align:left;
+  margin-left: 37%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 200%;
+  line-height: 2.5;
+}
+.Wines p {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(49, 49, 49);
+  font-weight: lighter;
+  font-size: 150%;
+  padding-left: 50px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.arrow_link {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
+}
+
+.box_parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 460px;
+  padding-right: 470px; 
+
+}
+
+@media(max-width:100em){
+  .box_parent{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
+.box {
+  background-color: rgb(248, 248, 248);
+  align-content: space-around;
+  opacity: 0.8;
+}
+
+.box_parent div {
+  max-width: 100vw;
+  max-height: 100vh;
+  align-content: center;
+  
+}
+
+.box h1 {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  padding-left: 50px;
+  margin-top: 10%;
+}
+
+.box p {
+ 
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(49, 49, 49);
+  font-weight: lighter;
+  font-size: 20px;
+  padding-left: 50px;
+  line-height: 1.5;
+}
+
+.box-img {
+    background: white;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    animation-name:fade;
+    animation-duration: 5s;
+    animation-iteration-count:calc(1);
+    
+}
+
+@keyframes fade{
+  0% { opacity:0; }
+  25% { opacity:0.3;}
+  50% { opacity:0.5;}
+  75% { opacity:0.7; }
+  100% { opacity:1; }
+}
+
+.our-wine-family-container {
+  display: grid;
+  background-color: rgb(248, 248, 248);
+  height: 500px;
+  justify-content: center;
+  align-content: space-between;
+}
+.our-wine-family-container h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 200%;
+}
+
+.flex-grid-thirds {
+  display: flex;
+  opacity: 1;
+  height: auto;
+}
+.col img {
+  display: grid;
+  justify-self: center;
+  margin: 0 auto;
+  height: 50%;
+}
+.col h3 {
+  text-align: center;
+  font-size: 140%;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.col a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1300px) {
+  .our-wine-family-container {
+    height: auto;
+    align-content: center;
+  }
+  .flex-grid-thirds {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+a:hover,
+a:active {
+  color: rgb(80, 80, 80);
+}
+
+.ara_image {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-items: center;
+}
+
+@media (max-width: 1300px) {
+  .ara_image {
+    justify-items: center;
+  }
+}
+.multi_images_parent {
+display: flex;
+
+  
+}
+
+.left {
+  height: 100vh;
+  
+}
+
+.right {
+  height: 100vh;
+ 
+
+}
+
+@media(max-width: 100em){
+  .multi_images_parent{
+    flex: auto;
+    
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y: auto;
+  }
+}
+
+.heart {
+  position: absolute;
+  left: 10px;
+  display: none;
+}
+
+
+.heart .fa-regular {
+  color: white;
+  font-size: 22px;
+}
+.heart .fa-solid{
+  color: red;
+  font-size: 22px;
+}
+
+.grid1 {
+  position: relative;
+  
+}
+.grid1:hover .heart{
+  display:block;
+  bottom: 50px;
+}
+
+.grid2 {
+  position: relative;
+  top: -195px;
+  left: 285px;
+    
+}
+.grid2:hover .heart{
+  display:block;
+  bottom: 50px;
+}
+
+.grid3 {
+  position: relative;
+  /* top: -751px;
+  left: 541px; */
+  left:1px;
+ 
+}
+.grid3:hover .heart{
+  display:block;
+  bottom: 15px;
+}
+
+.grid4 {
+  position: relative;
+  left:155px;
+  top: -225px;
+ 
+}
+.grid4:hover .heart{
+  display:block;
+  bottom: 15px;
+}
+
+.grid5 {
+  position: relative;
+  top: -195px;
+
+}
+.grid5:hover .heart{
+  display:block;
+  bottom: 15px;
+}
+
+.grid6 {
+  position: relative;
+  top:-225px;
+ 
+}
+.grid6:hover .heart{
+  display:block;
+  bottom: 15px;
+}
+
+.mySlides1,
+.mySlides2 {
+  display: none;
+}
+
+.mySlides1 img {
+  min-width: 200px;
+  max-width: 650px;
+}
+.mySlides2 img {
+  min-width: 200px;
+  max-width: 650px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  min-width: 200px;
+  max-width: 650px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+}
+
+/* NEW FOOTER */
+footer {
+  line-height: 1.5;
+  background: black;
+  
+}
+
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.no_underline a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+
+/* footer a:hover {
+  text-decoration: underline;
+} */
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ft-main-item {
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0% 15% 0% 15%;
+  align-self: auto;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+
+/* about modal content */
+
 
 #dots{
   color: blue;
