@@ -10,7 +10,9 @@
 
 // attaches a click event handler to toggle all of our hearts
 
-let hearts = document.getElementsByClassName("heart");
+
+
+let hearts = document.querySelectorAll(".heart");
 
 // for some reason a forEach did not work no idea why
 for (let i = 0; i < hearts.length; i++) {
