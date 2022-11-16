@@ -88,7 +88,7 @@ let plusSlides = (n, no) => {
 
 let showSlides = (n, no) => {
   let i;
-  let x = document.getElementsByClassName(slideId[no]);
+  let x = document.querySelectorAll(`.${slideId[no]}`);
   if (n > x.length) {
     slideIndex[no] = 1;
   }
