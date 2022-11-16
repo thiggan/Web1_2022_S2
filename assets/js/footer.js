@@ -24,9 +24,9 @@ for (let i = 0; i < hearts.length; i++) {
     // in most of the examples.
     e.preventDefault();
 
-    // getElementsByTagName gives you an array so we index
+    // querySelectorAll gives you an array so we index
     // directly into it
-    let faChildren = heart.getElementsByTagName("i");
+    let faChildren = heart.querySelectorAll("i");
     let faChild = faChildren[0];
     //console.log(`${faChild.className}`);
 
