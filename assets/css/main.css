@@ -203,7 +203,7 @@ body {
   visibility: hidden;
 }
 .ellipsis_menu_show{
-  visibility: visible;
+  visibility: visible !important;
   position: fixed;
 }
 
