@@ -15,6 +15,12 @@ body {
   
 }
 
+@media(max-width: 100em){
+  .container{
+    align-items: flex-start;
+  }
+}
+
 .fixed_sidebar {
   display: grid;
   position: fixed;
