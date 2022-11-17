@@ -57,7 +57,8 @@ I am proud of the carousel/slideshow and Api fetch - I managed to get thesse to 
  This code displays the hearts on the pictures grid above the footer
  
  ```js
-  	  
+let hearts = document.querySelectorAll(".heart");
+
 for (let i = 0; i < hearts.length; i++) {
   let heart = hearts[i];
 
