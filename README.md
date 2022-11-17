@@ -37,7 +37,7 @@ I will be using HTML, Javascript ES6 and CSS to create this website. I have used
 This site is designed to give the user more information about the wines produced by Ara wines. Once this has loaded the website should run and you will be able to browse it. There are links to navigate to each section within the site most of these will have a pointer cursor on them. Navigation should be easy around the site. 
 
 # Code I am proud of
-#### I am proud of the carousel/slideshow and Api fetch - I managed to get thesse to work together. I did use some code which I have referenced below to assist with the implementation of the slideshow.
+I am proud of the carousel/slideshow and Api fetch - I managed to get thesse to work together. I did use some code which I have referenced below to assist with the implementation of the slideshow.
 
 ```js
       carousel_1.forEach((result, index) => {
@@ -54,9 +54,42 @@ This site is designed to give the user more information about the wines produced
     });
  ```
  
+ This code displays the hearts on the pictures grid above the footer
+ 
+ ```js
+  	  
+for (let i = 0; i < hearts.length; i++) {
+  let heart = hearts[i];
+
+  // attach a click-event to all of our hearts
+  heart.addEventListener("click", (e) => {
+    //console.log('click-event');
+    
+    // aparently this is important as it is
+    // in most of the examples.
+    e.preventDefault();
+
+    // querySelectorAll gives you an array so we index
+    // directly into it
+    let faChildren = heart.querySelectorAll("i");
+    let faChild = faChildren[0];
+    //console.log(`${faChild.className}`);
+
+    // flip the heart over from a border to a solid
+    if (faChild.className == "fa-regular fa-heart") {
+      //console.log("o set; setting plan");
+      faChild.className = "fa-solid fa-heart";
+    } else {
+      //console.log("plan set; setting o");
+      faChild.className = "fa-regular fa-heart";
+    }
+  });
+}
+```
+ 
  # Known bugs
  
- #### I know there are some parts of this site that I couldn't quite replicate (not thorugh lack of reasearch, just through not being able to find the exact thing I needed) 
+ ##### I know there are some parts of this site that I couldn't quite replicate (not thorugh lack of reasearch, just through not being able to find the exact thing I needed) 
  
   1. One being the colour on the footer which goes from grey to black as the page moves down.
   2. The block of images at the end of the page do scroll but the disappear into the side of the page.
