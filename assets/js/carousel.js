@@ -1,4 +1,5 @@
-// click handlers
+// click handlers 
+//this has been set up to handle to arrows on either side of the image, they do change by themselves but they can be moved manually too.
 
 let coolClimateScrollLeft = document.querySelector(`#coolClimateScroll_left`);
 //console.log(coolClimateScrollLeft);
@@ -48,9 +49,12 @@ fetch(URL)
       index % 2 == 0 ? carousel_1.push(img_url) : carousel_2.push(img_url);
     });
 
-    carousel_1.forEach((result, index) => {
-      //console.log(`carousel_1 ${result}`);
 
+  //This is the code I have used to set up my slideshow carousel I have used two of these one for each carousel. It create and element from the 
+  //div and passes it the class and myslides information. It then passes in the image and uses src along with result to show each image within
+  //the carousel.
+
+    carousel_1.forEach((result, index) => {
       let slideContainer = document.querySelector("#slideshow1");
 
       let mySlide = document.createElement("div");
