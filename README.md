@@ -17,11 +17,11 @@ Some features used:
 
 # Contents
  ## 1. Home page
- ### 1.1 Information about the Marlborough Region
- ### 1.2 Information about the wines the make
- ### 1.3 Information about the quality of the wine
- ### 1.4 The Climate of the region
- ### 1.5 Latest Wines
+ #### 1.1 The Marlborough Region
+ #### 1.2 Wines they make
+ #### 1.3 The quality of the wine
+ #### 1.4 The Climate of the region
+ #### 1.5 Latest Wines
 
 ## 2. Social Media Links (Main ones used)
 ### 2.1 Facebook
@@ -34,6 +34,24 @@ Some features used:
  
  ## How to use this website
 This site is designed to give the user more information about the wines produced by Ara wines. Once this has loaded the website should run and you will be able to browse it. There are links to navigate to each section within the site most of these will have a pointer cursor on them. Navigation should be easy around the site. 
+
+## Code I am proud of
+#### I am proud of the carousel/slideshow and Api fetch - I managed to get thesse to work together. I did use some code which I have referenced below to assist with the implementation of the slideshow.
+
+```carousel_1.forEach((result, index) => {
+      let slideContainer = document.querySelector("#slideshow1");
+
+      let mySlide = document.createElement("div");
+      mySlide.setAttribute("class", "mySlides1 fade");
+
+      let img = document.createElement("img");
+      img.setAttribute("src", result);
+
+      mySlide.appendChild(img);
+      slideContainer.appendChild(mySlide);
+    });```
+    
+
 
 ## Credits
 
@@ -57,6 +75,3 @@ https://stackoverflow.com/questions/41152161/opacity-animation-for-background-im
 
 
 
-## License 
-
-## Badges
