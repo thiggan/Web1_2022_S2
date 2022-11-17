@@ -1,19 +1,16 @@
-//code for the hamburger bar which include links to navigate round the site. 
+//code for the hamburger bar which include links to navigate round the site.
 
-$('#about-modal-trigger').on('click', function(e) {
-  $('#about-modal-1').toggleClass("about-modal-show"); //you can list several class names 
+$("#about-modal-trigger").on("click", function (e) {
+  $("#about-modal-1").toggleClass("about-modal-show"); //you can list several class names
   e.preventDefault();
 });
 
-$('#about-modal-close').on('click', function(e) {
-  $('#about-modal-1').toggleClass("about-modal-show"); //you can list several class names 
-  e.preventDefault();
-
-});
-
-$('#ellipsis').on('click', function(e){
-  $('#ellipsis_menu').toggleClass("ellipsis_menu_show");
+$("#about-modal-close").on("click", function (e) {
+  $("#about-modal-1").toggleClass("about-modal-show"); //you can list several class names
   e.preventDefault();
 });
 
-
+$("#ellipsis").on("click", function (e) {
+  $("#ellipsis_menu").toggleClass("ellipsis_menu_show");
+  e.preventDefault();
+});

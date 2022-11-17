@@ -14,35 +14,37 @@ coolClimateScrollRight.addEventListener("click", (e) => {
   plusSlides(1, 0);
 });
 
-let ourLatestReleaseScrollLeft = document.querySelector("#ourLatestReleaseScroll_Left");
+let ourLatestReleaseScrollLeft = document.querySelector(
+  "#ourLatestReleaseScroll_Left"
+);
 //console.log("ourLatestReleaseScrollLeft");
 ourLatestReleaseScrollLeft.addEventListener("click", (e) => {
   console.log("ourLatestReleaseScrollLeft");
   plusSlides(-1, 1);
 });
 
-let ourLatestReleaseScrollRight = document.querySelector("#ourLatestReleaseScroll_right");
+let ourLatestReleaseScrollRight = document.querySelector(
+  "#ourLatestReleaseScroll_right"
+);
 //console.log(ourLatestReleaseScrollRight);
 ourLatestReleaseScrollRight.addEventListener("click", (e) => {
   console.log("ourLatestReleaseScrollRight");
   plusSlides(1, 1);
 });
 
-
-
-    const BASE_URL = `https://api.unsplash.com`;
-    const URL = `${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&client_id=HSnjWCtFB_SV_n99iu2Mr32d5mk1b5W6n5yXpGLZx28`;
+const BASE_URL = `https://api.unsplash.com`;
+const URL = `${BASE_URL}/search/photos?query=wine&per_page=6&orientation=squarish&client_id=HSnjWCtFB_SV_n99iu2Mr32d5mk1b5W6n5yXpGLZx28`;
 //console.log(URL);
 
 let carousel_1 = [];
 let carousel_2 = [];
 
-fetch(URL) 
+fetch(URL)
   .then((response) => response.json())
   .then((data) => {
     data["results"].forEach((result, index) => {
       let img_url = result["urls"]["regular"];
-    
+
       index % 2 == 0 ? carousel_1.push(img_url) : carousel_2.push(img_url);
     });
 
@@ -62,7 +64,6 @@ fetch(URL)
     });
 
     carousel_2.forEach((result, index) => {
-     
       let slideContainer = document.querySelector("#slideshow2");
 
       let mySlide = document.createElement("div");
@@ -75,7 +76,6 @@ fetch(URL)
       slideContainer.appendChild(mySlide);
     });
   });
-
 
 // adapted from https://www.w3schools.com/howto/howto_js_slideshow.asp
 
