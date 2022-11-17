@@ -54,11 +54,11 @@ This site is designed to give the user more information about the wines produced
  
  # Known bugs
  
- ## I know there are some parts of this site that I couldn't quite replicate (not thorugh lack of reasearch, just through not being able to find the exact thing I needed) 
+ ### I know there are some parts of this site that I couldn't quite replicate (not thorugh lack of reasearch, just through not being able to find the exact thing I needed) 
  
- ### 1. One being the colour on the footer which goes from grey to black as the page moves down.
- ### 2. The block of images at the end of the page do scroll but the disappear into the side of the page.
- ### 3. I tried to get the two main images and words to fade in as the page moved down, it is working to a degree but not quite how I wanted it to.
+ #### 1. One being the colour on the footer which goes from grey to black as the page moves down.
+ #### 2. The block of images at the end of the page do scroll but the disappear into the side of the page.
+ #### 3. I tried to get the two main images and words to fade in as the page moved down, it is working to a degree but not quite how I wanted it to.
 
 # Credits
 
