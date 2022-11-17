@@ -38,8 +38,6 @@ This site is designed to give the user more information about the wines produced
 ## Code I am proud of
 #### I am proud of the carousel/slideshow and Api fetch - I managed to get thesse to work together. I did use some code which I have referenced below to assist with the implementation of the slideshow.
 
-```
-
       carousel_1.forEach((result, index) => {
       let slideContainer = document.querySelector("#slideshow1");
 
@@ -52,11 +50,7 @@ This site is designed to give the user more information about the wines produced
       mySlide.appendChild(img);
       slideContainer.appendChild(mySlide);
     });
-    ```
-    
-    
-    
-
+ 
 
 ## Credits
 
