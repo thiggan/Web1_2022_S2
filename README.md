@@ -94,6 +94,7 @@ for (let i = 0; i < hearts.length; i++) {
   1. One being the colour on the footer which goes from grey to black as the page moves down.
   2. The block of images at the end of the page do scroll but the disappear into the side of the page.
   3. I tried to get the two main images and words to fade in as the page moved down, it is working to a degree but not quite how I wanted it to.
+  4. Arrow links were meant to be at the end of each passage of text - I have added one and left the others off. 
 
 # Credits
 
