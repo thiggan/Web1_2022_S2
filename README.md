@@ -4,7 +4,7 @@
 
 # Project Description
 This is a project to look at a website, look at how it is constructed and replicate this myself. I will need to inspect the original website to see how things are done but I will be using my own code to build it with the help of more research online looking at some of the more complicated parts.
-I will search for images to use and credit these where applicable, they will not be the same as the original website though. I will use fonts the same or as close as I can get to the original to make it look the similar. The website will have most of the same features as the original. 
+I will search for images to use and credit these where applicable, they will not all be the same as the original website though. I will use fonts the same or as close as I can get to the original to make it look the similar. The website will have most of the same features as the original. 
 I will be using HTML, Javascript ES6 and CSS to create this website. I have used a variety of styles, and a carousel with images, fetched using an Unaplash for the API data. These each contain three images and they change every 1.5 seconds. 
 
 ### Some features used:
@@ -14,6 +14,7 @@ I will be using HTML, Javascript ES6 and CSS to create this website. I have used
  4. A page that will resize and is responsive
  5. Flex and Grid structures
  6. Font Awesome was used for the icons
+ 7. Ellipsis that is visible and hidden
 
 
 # Contents
@@ -54,7 +55,7 @@ I am proud of the carousel/slideshow and Api fetch - I managed to get thesse to 
     });
  ```
  
- This code displays the hearts on the pictures grid above the footer
+ This code displays the hearts on the pictures grid just above the footer - I am proud of this because it took some working out to get everything in the right place and working on a click to change the colour from the white outline to filled in red. 
  
  ```js
 let hearts = document.querySelectorAll(".heart");
@@ -96,6 +97,7 @@ for (let i = 0; i < hearts.length; i++) {
   2. The block of images at the end of the page do scroll but the disappear into the side of the page.
   3. I tried to get the two main images and words to fade in as the page moved down, it is working to a degree but not quite how I wanted it to.
   4. Arrow links were meant to be at the end of each passage of text - I have added one and left the others off. 
+  5. The ellipsis links to not display above it but I left them on to show the click event works. It is not visible unless the page is in responsive mode.
 
 # Credits
 
